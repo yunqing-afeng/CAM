@@ -1,0 +1,1 @@
+give @s fishing_rod{display:{Name:"{\"translate\":\"item.cam.echo_rod\",\"italic\":\"false\"}"},CustomModelData:9102129,id:"cam:echo_rod",fisma:1,fisma_t:8}

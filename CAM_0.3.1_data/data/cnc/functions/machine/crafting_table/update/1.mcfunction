@@ -1,0 +1,2 @@
+data modify entity @s ArmorItems[1] set value {id:"minecraft:stone",Count:1b,tag:{Items:[{Slot:1b,tag:{}},{Slot:2b,tag:{}},{Slot:3b,tag:{}},{Slot:10b,tag:{}},{Slot:11b,tag:{}},{Slot:12b,tag:{}},{Slot:19b,tag:{}},{Slot:20b,tag:{}},{Slot:21b,tag:{}}]}}
+scoreboard players set @s CNC_update 8

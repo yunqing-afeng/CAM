@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:cam/dizziness_hammer"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:cam/ender_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:cam/rattlesnake_dagger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:cam/vampire"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:cam/snake_rod"
+        }
+      ]
+    }
+  ]
+}

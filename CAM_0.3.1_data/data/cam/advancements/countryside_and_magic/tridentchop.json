@@ -1,0 +1,17 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "trident": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "direct_entity": {
+          "type": "minecraft:trident",
+          "nbt": "{Trident:{tag:{CAM_Enchantments:[{id:\"cam:stormchop\"}]}}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cam:magic/trident/trigger"
+  }
+}

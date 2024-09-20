@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_sword"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":9102045},"model":"cm:golden_harpoon"},
+    {"predicate":{"custom_model_data":9102074},"model":"weapon:sword_of_barbiel"}
+  ]
+}

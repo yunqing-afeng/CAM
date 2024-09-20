@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/copper_sword/exp_ch"
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/copper_sword/exp_eu"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.6,
+                                "min": 0.4
+                            }
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/copper_sword/rag_ch"
+                        },
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/copper_sword/rag_eu"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.4,
+                                "min": 0.2
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/copper_sword/bronze",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.8,
+                                "min": 0.6
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

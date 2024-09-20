@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/arrow"
+  },
+  "overrides":[
+      {"predicate":{"custom_model_data":9102096},"model":"cm:bone_arrow"}
+  ]
+}

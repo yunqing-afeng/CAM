@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"cam:wine_barrel\",CAM_barrel:1b,CustomModelData:9102073,display:{Name:'[{\"translate\":\"item.cam.wine_barrel\",\"italic\":false}]'}}"
+            }
+          ],
+          "name": "minecraft:barrel"
+        }
+      ]
+    }
+  ]
+}

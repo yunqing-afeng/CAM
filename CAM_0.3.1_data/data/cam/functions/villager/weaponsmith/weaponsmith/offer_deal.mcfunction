@@ -1,0 +1,4 @@
+execute if data entity @s Offers.Recipes[{sell:{id:"minecraft:diamond_sword"},maxUses:3}] run data modify entity @s Offers.Recipes[{sell:{id:"minecraft:diamond_sword"},maxUses:3}].maxUses set value 1
+execute if data entity @s Offers.Recipes[{sell:{id:"minecraft:iron_sword"},maxUses:3}] run data modify entity @s Offers.Recipes[{sell:{id:"minecraft:iron_sword"},maxUses:3}].maxUses set value 1
+execute if data entity @s Offers.Recipes[{sell:{id:"minecraft:diamond_axe"},maxUses:3}] run data modify entity @s Offers.Recipes[{sell:{id:"minecraft:diamond_axe"},maxUses:3}].maxUses set value 1
+execute if data entity @s Offers.Recipes[{sell:{id:"minecraft:iron_axe"},maxUses:12}] run data modify entity @s Offers.Recipes[{sell:{id:"minecraft:iron_axe"},maxUses:12}].maxUses set value 1

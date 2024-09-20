@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crafting_table",
+            "nbt": "{CustomModelData:9102026}"
+        },
+        "title": {
+            "translate": "advancements.cam.crafting_table.title"
+        },
+        "description": {
+            "translate": "advancements.cam.crafting_table.description"
+        },
+        "frame": "task"
+    },
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "put_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CAM_crafting_table:1b}"
+                    }
+                ]
+            }
+        }
+    }
+}

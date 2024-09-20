@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:apple",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.honeyapple\",\"italic\":\"false\"}'},CustomModelData:9102028,CAM_output:1b,id:\"cam:honey_apple\",honey_apple:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

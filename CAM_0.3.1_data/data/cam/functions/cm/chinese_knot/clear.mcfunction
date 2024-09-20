@@ -1,0 +1,2 @@
+tag @s add CAM_knot_tri
+execute unless entity @e[predicate=cam:misc/chinese_knot/clear_sub,distance=..2] run kill @e[type=item,nbt={Item:{id:"minecraft:item_frame",Count:1b}},distance=..1,limit=1,sort=nearest,tag=!CAM_knot_tri]

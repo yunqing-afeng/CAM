@@ -1,0 +1,96 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "iron_sword": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_sword"
+                    ]
+                }
+            }
+        },
+        "diamond_sword": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_sword"
+                    ]
+                }
+            }
+        },
+        "golden_sword": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_sword"
+                    ]
+                }
+            }
+        },
+        "stone_sword": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_sword"
+                    ]
+                }
+            }
+        },
+        "iron_axe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_axe"
+                    ]
+                }
+            }
+        },
+        "diamond_axe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_axe"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron_sword",
+            "iron_axe",
+            "diamond_axe",
+            "diamond_sword",
+            "golden_sword",
+            "stone_sword"
+        ]
+    ],
+    "rewards": {
+        "function": "cam:villager/weaponsmith/weaponsmith/resupply_player"
+    }
+}

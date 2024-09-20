@@ -1,0 +1,1 @@
+give @s minecraft:diamond_sword{CAM_Enchantments:[{id:"cam:rampage",lvl:3}]}

@@ -1,0 +1,1 @@
+give @s firework_star{display:{Name:"{\"translate\":\"item.cam.rotten_leather\",\"color\":\"white\",\"italic\":\"false\"}"},CustomModelData:9102114,id:"cam:rotten_leather"}

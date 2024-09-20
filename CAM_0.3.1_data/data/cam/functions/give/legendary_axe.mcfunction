@@ -1,0 +1,1 @@
+give @s golden_axe{id:"cam:legendary_axe",display:{Name:"[{\"translate\":\"item.cam.legendaxe\",\"color\":\"gold\",\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},Enchantments:[{id:"minecraft:efficiency",lvl:10},{id:"minecraft:unbreaking",lvl:5},{id:"minecraft:sharpness",lvl:5}],CustomModelData:9102017}

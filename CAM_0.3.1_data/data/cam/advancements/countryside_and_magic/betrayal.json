@@ -1,0 +1,43 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "bastion": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:bastion_remnant"
+              },
+              "nbt": "{Inventory:[{id:\"minecraft:compass\",tag:{CAM_compass_type:3b}}]}"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.cam.betrayal.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:compass",
+      "nbt": "{CustomModelData:9102131}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cam.betrayal.title"
+    }
+  },
+  "requirements": [
+    [
+      "bastion"
+    ]
+  ]
+}

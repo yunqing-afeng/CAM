@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"put_furnace": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "cam:modules/init"
+	}
+}

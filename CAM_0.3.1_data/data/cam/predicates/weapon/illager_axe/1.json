@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "nbt": "{CAM_illaxe:1b,CAM_axetype:1b}"
+      }
+    }
+  }
+}

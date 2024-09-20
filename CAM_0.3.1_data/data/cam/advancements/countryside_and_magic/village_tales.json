@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "title": {
+      "translate": "advancements.cam.village_tales_complete.title"
+    },
+    "description": {
+      "translate": "advancements.cam.village_tales_complete.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cam:countryside_and_magic/vt",
+  "criteria": {
+    "bless": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{id:\"cam:four_leaf_clover\"}"
+          }
+        ]
+      }
+    },
+    "legendary_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_axe"
+            ],
+            "nbt": "{id:\"cam:legendary_axe\"}"
+          }
+        ]
+      }
+    },
+    "monsters": {
+      "trigger": "minecraft:impossible"
+    },
+    "magic_weapons": {
+      "trigger": "minecraft:impossible"
+    },
+    "undefeatable": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{SelectedItem:{tag:{id:\"cam:marine_harpoon\"}}}"
+        },
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    },
+    "ghost": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"CAM_ghost\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000,
+    "loot": [
+      "cam:cam/vindicator_adv"
+    ]
+  }
+}

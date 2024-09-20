@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "name": "minecraft:saddle"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.1,
+              "looting_multiplier": 0.05
+            },
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "score",
+                "target": {
+                  "type": "fixed",
+                  "name": "#sapphire"
+                },
+                "score": "CAM_module"
+              },
+              "range": 1
+            }
+          ],
+          "name": "cam:cam/sapphire"
+        }
+      ]
+    }
+  ]
+}

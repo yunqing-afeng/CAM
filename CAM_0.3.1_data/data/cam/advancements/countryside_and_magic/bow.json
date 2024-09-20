@@ -1,0 +1,54 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "bow": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:bow"
+                    ]
+                }
+            }
+        },
+        "crossbow": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:crossbow"
+                    ]
+                }
+            }
+        },
+        "tipped_arrow": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:tipped_arrow"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bow",
+            "crossbow",
+            "tipped_arrow"
+        ]
+    ],
+    "rewards": {
+        "function": "cam:villager/fletcher/resupply_player"
+    }
+}

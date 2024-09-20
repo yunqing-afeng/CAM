@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{SelectedItem:{id:\"minecraft:item_frame\"}}"
+                }
+              }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{Slot:-106b,tag:{CAM_dream_catcher:1b}}]}"
+            }
+        }
+    ]
+}

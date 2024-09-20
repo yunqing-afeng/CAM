@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:exquisite_stick\",CustomModelData:9102133,display:{Name:'[{\"translate\":\"item.cam.exquisite_stick\",\"italic\":\"false\"}]',Lore:['{\"text\":\"\"}','{\"translate\":\"text.cam.stick_1\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"text.cam.stick_2\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":1},{\"translate\":\"attribute.name.generic.attackDamage\"}],\"color\":\"dark_green\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":1.6},{\"translate\":\"attribute.name.generic.attackSpeed\"}],\"color\":\"dark_green\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"CAM\",UUID:[I;2224,4131,666,885],Slot:mainhand,Operation:0},{AttributeName:\"generic.attack_speed\",Amount:-2.4,Name:\"CAM\",UUID:[I;496,462,641,782],Slot:mainhand,Operation:0}],HideFlags:2}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

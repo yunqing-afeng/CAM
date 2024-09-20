@@ -1,0 +1,3 @@
+scoreboard objectives add CAM_antigrind minecraft.custom:minecraft.interact_with_grindstone
+scoreboard objectives add CAM_grindtype dummy
+scoreboard objectives add CAM_ifgrind dummy

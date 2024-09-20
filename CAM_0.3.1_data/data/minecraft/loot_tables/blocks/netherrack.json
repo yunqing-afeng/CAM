@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "type": "minecraft:item",
+              "name": "minecraft:netherrack"
+            },
+            {
+              "type": "minecraft:alternatives",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:loot_table",
+                  "name": "cam:cam/sulfur",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:table_bonus",
+                      "enchantment": "minecraft:fortune",
+                      "chances": [
+                        0.005,
+                        0.01,
+                        0.015,
+                        0.04
+                      ]
+                    },
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#others"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherrack"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

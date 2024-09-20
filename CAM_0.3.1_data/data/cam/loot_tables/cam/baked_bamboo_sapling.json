@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:baked_potato",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.baked_bamboo_sapling\",\"italic\":\"false\"}'},CustomModelData:9102019,CAM_output:1b,id:\"cam:baked_bamboo_sapling\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

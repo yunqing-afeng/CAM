@@ -1,0 +1,3 @@
+
+execute if block ~ ~ ~ minecraft:barrel{Items:[{Slot:19b,id:"minecraft:string"},{Slot:11b,id:"minecraft:bamboo"},{Slot:3b,id:"minecraft:bamboo"}]} if entity @s[scores={CNC_table_count=3}] run item replace block ~ ~ ~ container.16 with wooden_sword{display:{Name:"{\"translate\":\"item.cam.bamboo_sword\",\"italic\":false}"},CustomModelData:9102019,Output:1b,id:"cam:bamboo_sword"}
+execute if block ~ ~ ~ minecraft:barrel{Items:[{Slot:21b,id:"minecraft:string"},{Slot:11b,id:"minecraft:bamboo"},{Slot:1b,id:"minecraft:bamboo"}]} if entity @s[scores={CNC_table_count=3}] run item replace block ~ ~ ~ container.16 with wooden_sword{display:{Name:"{\"translate\":\"item.cam.bamboo_sword\",\"italic\":false}"},CustomModelData:9102019,Output:1b,id:"cam:bamboo_sword"}

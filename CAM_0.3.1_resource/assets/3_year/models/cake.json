@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "3_year:block/cake_top_2"
+	}
+}

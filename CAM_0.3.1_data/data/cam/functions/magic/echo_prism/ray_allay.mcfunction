@@ -1,0 +1,3 @@
+execute if entity @s[distance=..32] positioned ^ ^ ^ if entity @e[type=#cam:prism_effect,distance=..4] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["CAM_prism_effect"]}
+particle end_rod ~ ~ ~ 0 0 0 0 0 normal
+execute if entity @s[distance=..32] unless entity @e[type=minecraft:area_effect_cloud,distance=..6,tag=CAM_prism_effect] positioned ^ ^ ^3 anchored feet run function cam:magic/echo_prism/ray_allay

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cod",
+    "minecraft:squid",
+    "minecraft:pufferfish",
+    "minecraft:salmon",
+    "minecraft:turtle",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:dolphin",
+    "minecraft:tropical_fish",
+    "minecraft:glow_squid",
+    "minecraft:axolotl"
+  ]
+}

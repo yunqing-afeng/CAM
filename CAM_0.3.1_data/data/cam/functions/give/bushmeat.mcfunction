@@ -1,0 +1,1 @@
+give @s minecraft:cooked_chicken{CustomModelData:9102039,id:"cam:bushmeat",display:{Name:"[{\"translate\":\"item.cam.bushmeat\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},bushmeat:1b}

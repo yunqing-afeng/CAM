@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:breakable\",lvl:1}],CAM_spe:2b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:breakable\",lvl:2}],CAM_spe:2b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:breakable\",lvl:3}],CAM_spe:2b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

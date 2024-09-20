@@ -1,0 +1,1 @@
+give @s iron_sword{spear:1b,display:{Lore:["{\"translate\":\"lore.cam.spear\",\"italic\":\"false\"}"],Name:"[{\"translate\":\"item.cam.spear\",\"color\":\"gray\",\"italic\":\"false\"}]"},CustomModelData:9102015,id:"cam:spear"}

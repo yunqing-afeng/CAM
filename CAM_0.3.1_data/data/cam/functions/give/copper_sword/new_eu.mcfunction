@@ -1,0 +1,1 @@
+give @s iron_sword{display:{Name:"{\"translate\":\"item.cam.copper_sword\",\"italic\":false}"},CustomModelData:9102088,id:"cam:copper_sword",CAM_cps_type:1,CAM_cps_oxi:0}

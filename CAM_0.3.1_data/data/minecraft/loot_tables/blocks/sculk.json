@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "score",
+            "target": {
+              "type": "fixed",
+              "name": "#sculk"
+            },
+            "score": "CAM_module"
+          },
+          "range": 1
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:cam/sculk_dust"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

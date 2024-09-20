@@ -1,0 +1,1 @@
+scoreboard objectives add music_trigger minecraft.custom:minecraft.play_record

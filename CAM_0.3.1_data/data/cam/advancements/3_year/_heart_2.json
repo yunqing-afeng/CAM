@@ -1,0 +1,25 @@
+{
+	"parent": "cam:3_year/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:clock",
+			"nbt": "{CustomModelData:9101005}"
+		},
+		"title": {
+			"translate": "advancements.camani.heart2.title"
+		},
+		"description": {
+			"translate": "advancements.camani.heart2.description"
+		},
+		"frame": "task",
+		"hidden": true
+	},
+	"criteria": {
+		"heart": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cam:3_year/adv/heart2"
+	}
+}

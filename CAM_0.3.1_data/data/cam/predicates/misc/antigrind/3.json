@@ -1,0 +1,19 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Inventory:[{Slot:3b,tag:{CAM_antigrind:1b}}]}"
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:3b,tag:{Enchantments:[{id:\"cam:antigrind\"}]}}]}"
+      }
+    }
+  }
+]

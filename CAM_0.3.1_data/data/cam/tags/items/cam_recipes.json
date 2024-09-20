@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:wooden_sword",
+    "minecraft:string",
+    "minecraft:apple",
+    "minecraft:mushroom_stew",
+    "minecraft:tipped_arrow",
+    "minecraft:iron_sword",
+    "minecraft:potion"
+  ]
+}

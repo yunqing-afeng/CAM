@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/mushroom_stew"
+    },
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102009},"model":"cm:stew"},
+		{"predicate":{"custom_model_data":9102013},"model":"cm:sweetbarry_stew"},
+		{"predicate":{"custom_model_data":9102014},"model":"cm:snow_stew"},
+		{"predicate":{"custom_model_data":9102057},"model":"cm:rice_dealt"},
+        {"predicate": {"custom_model_data": 9102124},"model": "fisma_co:sea_cucumber_stew"},
+        {"predicate":{"custom_model_data":9102125},"model":"fisma_co:carp_stew"}
+    ]
+}

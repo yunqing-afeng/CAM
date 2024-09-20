@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:jukebox{RecordItem:{tag:{music:"afterglow"}}} run function music:music/afterglow

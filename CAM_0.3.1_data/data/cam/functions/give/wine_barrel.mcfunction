@@ -1,0 +1,1 @@
+give @s barrel{id:"cam:wine_barrel",CAM_barrel:1b,CustomModelData:9102073,display:{Name:"[{\"translate\":\"item.cam.wine_barrel\",\"italic\":false}]"}}

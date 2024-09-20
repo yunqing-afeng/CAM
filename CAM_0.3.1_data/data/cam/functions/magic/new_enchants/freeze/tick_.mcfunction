@@ -1,0 +1,9 @@
+execute as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] if entity @s[type=#minecraft:freeze_hurts_extra_types] run damage @s 6 freeze
+execute as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] if entity @s[predicate=cam:enchant/freeze/on_fire] run damage @s 3 freeze
+execute as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] if entity @s[predicate=cam:enchant/freeze/on_fire] at @s run function cam:magic/new_enchants/freeze/extinguish
+execute as @a[predicate=cam:enchant/freeze/1] at @s anchored eyes positioned ^ ^ ^2.5 as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] unless entity @s[type=#minecraft:freeze_immune_entity_types] run effect give @s minecraft:slowness 10 0
+execute as @a[predicate=cam:enchant/freeze/2] at @s anchored eyes positioned ^ ^ ^2.5 as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] unless entity @s[type=#minecraft:freeze_immune_entity_types] run effect give @s minecraft:slowness 15 0
+execute as @a[predicate=cam:enchant/freeze/3] at @s anchored eyes positioned ^ ^ ^2.5 as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] unless entity @s[type=#minecraft:freeze_immune_entity_types] run effect give @s minecraft:slowness 15 1
+execute as @a[predicate=cam:enchant/freeze/4] at @s anchored eyes positioned ^ ^ ^2.5 as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] unless entity @s[type=#minecraft:freeze_immune_entity_types] run effect give @s minecraft:slowness 20 1
+execute as @a[predicate=cam:enchant/freeze/5] at @s anchored eyes positioned ^ ^ ^2.5 as @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] unless entity @s[type=#minecraft:freeze_immune_entity_types] run effect give @s minecraft:slowness 30 1 
+playsound minecraft:entity.player.hurt_freeze neutral @a

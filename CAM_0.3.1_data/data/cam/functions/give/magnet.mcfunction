@@ -1,0 +1,1 @@
+give @s iron_ingot{Damage:0s,display:{Name:"{\"translate\":\"item.cam.magnet\",\"color\":\"white\",\"italic\":\"false\"}"},magnet:1b,CustomModelData:9102011,id:"cam:magnet"}

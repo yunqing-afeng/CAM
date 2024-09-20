@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:stick",Count:1b},OnGround:1b},limit=1] at @s if block ~ ~-1 ~ minecraft:iron_block if entity @e[type=item,nbt={Item:{id:"minecraft:wither_skeleton_skull",Count:1b},OnGround:1b},distance=..2] run function cam:magic/killer/killer_execute
+execute as @e[nbt={Item:{tag:{kill:1b}}},type=item] if score #particle CAM_module matches 1 at @s run particle minecraft:smoke ~ ~ ~ 0.05 0.1 0.05 0.02 1 normal @a

@@ -1,0 +1,1 @@
+give @s iron_sword{CustomModelData:9102037,display:{Name:"[{\"translate\":\"item.cam.glaive\",\"color\":\"white\",\"italic\":\"false\"}]"},id:"cam:glaive"}

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides":[
+	    {"predicate":{"custom_model_data":9102072},"model":"cm:chinese_knot"},
+		{"predicate":{"custom_model_data":9102073},"model":"cm:chinese_knot_down"},
+    {"predicate":{"custom_model_data":9105001},"model":"cm:dream_catcher/clover"},
+    {"predicate":{"custom_model_data":9105002},"model":"cm:dream_catcher/clover_down"},
+    {"predicate":{"custom_model_data":9105003},"model":"cm:dream_catcher/completeness"},
+    {"predicate":{"custom_model_data":9105004},"model":"cm:dream_catcher/completeness_down"},
+    {"predicate":{"custom_model_data":9105005},"model":"cm:dream_catcher/creation"},
+    {"predicate":{"custom_model_data":9105006},"model":"cm:dream_catcher/creation_down"},
+    {"predicate":{"custom_model_data":9105007},"model":"cm:dream_catcher/dirt"},
+    {"predicate":{"custom_model_data":9105008},"model":"cm:dream_catcher/dirt_down"},
+    {"predicate":{"custom_model_data":9105009},"model":"cm:dream_catcher/empty"},
+    {"predicate":{"custom_model_data":9105010},"model":"cm:dream_catcher/empty_down"},
+    {"predicate":{"custom_model_data":9105011},"model":"cm:dream_catcher/fire"},
+    {"predicate":{"custom_model_data":9105012},"model":"cm:dream_catcher/fire_down"},
+    {"predicate":{"custom_model_data":9105013},"model":"cm:dream_catcher/flower"},
+    {"predicate":{"custom_model_data":9105014},"model":"cm:dream_catcher/flower_down"},
+    {"predicate":{"custom_model_data":9105015},"model":"cm:dream_catcher/heart"},
+    {"predicate":{"custom_model_data":9105016},"model":"cm:dream_catcher/heart_down"},
+    {"predicate":{"custom_model_data":9105017},"model":"cm:dream_catcher/ice"},
+    {"predicate":{"custom_model_data":9105018},"model":"cm:dream_catcher/ice_down"},
+    {"predicate":{"custom_model_data":9105019},"model":"cm:dream_catcher/mist"},
+    {"predicate":{"custom_model_data":9105020},"model":"cm:dream_catcher/mist_down"},
+    {"predicate":{"custom_model_data":9105021},"model":"cm:dream_catcher/nihility"},
+    {"predicate":{"custom_model_data":9105022},"model":"cm:dream_catcher/nihility_down"},
+    {"predicate":{"custom_model_data":9105023},"model":"cm:dream_catcher/star"},
+    {"predicate":{"custom_model_data":9105024},"model":"cm:dream_catcher/star_down"},
+    {"predicate":{"custom_model_data":9105025},"model":"cm:dream_catcher/sun"},
+    {"predicate":{"custom_model_data":9105026},"model":"cm:dream_catcher/sun_down"},
+    {"predicate":{"custom_model_data":9105027},"model":"cm:dream_catcher/tree"},
+    {"predicate":{"custom_model_data":9105028},"model":"cm:dream_catcher/tree_down"},
+    {"predicate":{"custom_model_data":9105029},"model":"cm:dream_catcher/water"},
+    {"predicate":{"custom_model_data":9105030},"model":"cm:dream_catcher/water_down"},
+    {"predicate":{"custom_model_data":9105031},"model":"cm:dream_catcher/wind"},
+    {"predicate":{"custom_model_data":9105032},"model":"cm:dream_catcher/wind_down"}
+    ]
+}

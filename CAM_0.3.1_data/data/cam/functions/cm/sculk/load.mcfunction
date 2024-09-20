@@ -1,0 +1,2 @@
+scoreboard objectives add CAM_senser_min minecraft.mined:minecraft.sculk_sensor
+scoreboard objectives add CAM_sculk_min minecraft.mined:minecraft.sculk

@@ -1,0 +1,236 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "iron_axe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_axe"
+                    ]
+                }
+            }
+        },
+        "iron_pickaxe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_pickaxe"
+                    ]
+                }
+            }
+        },
+        "iron_hoe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_hoe"
+                    ]
+                }
+            }
+        },
+        "iron_shovel": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_shovel"
+                    ]
+                }
+            }
+        },
+        "stone_axe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_axe"
+                    ]
+                }
+            }
+        },
+        "stone_pickaxe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_pickaxe"
+                    ]
+                }
+            }
+        },
+        "stone_hoe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_hoe"
+                    ]
+                }
+            }
+        },
+        "stone_shovel": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_shovel"
+                    ]
+                }
+            }
+        },
+        "diamond_axe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_axe"
+                    ]
+                }
+            }
+        },
+        "diamond_pickaxe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_pickaxe"
+                    ]
+                }
+            }
+        },
+        "diamond_hoe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_hoe"
+                    ]
+                }
+            }
+        },
+        "diamond_shovel": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            }
+        },
+        "golden_axe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_axe"
+                    ]
+                }
+            }
+        },
+        "golden_pickaxe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_pickaxe"
+                    ]
+                }
+            }
+        },
+        "golden_hoe": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_hoe"
+                    ]
+                }
+            }
+        },
+        "golden_shovel": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:toolsmith\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_shovel"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron_axe",
+            "iron_hoe",
+            "iron_pickaxe",
+            "iron_shovel",
+            "diamond_axe",
+            "diamond_hoe",
+            "diamond_pickaxe",
+            "diamond_shovel",
+            "golden_axe",
+            "golden_hoe",
+            "golden_pickaxe",
+            "golden_shovel",
+            "stone_axe",
+            "stone_hoe",
+            "stone_pickaxe",
+            "stone_shovel"
+        ]
+    ],
+    "rewards": {
+        "function": "cam:villager/toolsmith/resupply_player"
+    }
+}

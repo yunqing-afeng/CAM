@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"put_furnace": {
+			"trigger": "minecraft:player_killed_entity"
+		}
+	},
+	"rewards": {
+		"function": "cam:magic/new_enchants/edification/random"
+	}
+}

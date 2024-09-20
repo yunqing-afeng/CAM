@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": {
+            "translate": "advancements.cam.festival.title"
+        },
+        "description": {
+            "translate": "advancements.cam.festival.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "cam:countryside_and_magic/priest",
+    "criteria": {
+        "default": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 500
+    }
+}

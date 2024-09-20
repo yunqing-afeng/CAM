@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:"{\"translate\":\"item.cam.echo_emitter\",\"italic\":\"false\"}"},CustomModelData:9102116,id:"cam:echo_emitter",CAM_echo_emitter:1b,CAM_loaded:0b}

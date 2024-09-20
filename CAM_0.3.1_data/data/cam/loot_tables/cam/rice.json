@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat_seeds",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.rice\",\"color\":\"white\",\"italic\":\"false\"}'},CAM_rice:1b,CustomModelData:9102048,id:\"cam:rice\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

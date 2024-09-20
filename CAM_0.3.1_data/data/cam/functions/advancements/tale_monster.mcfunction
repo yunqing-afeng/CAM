@@ -1,0 +1,1 @@
+advancement grant @s only cam:countryside_and_magic/village_tales monsters

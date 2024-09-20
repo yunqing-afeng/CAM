@@ -1,0 +1,1 @@
+summon minecraft:firework_rocket ~ ~ ~ {Tags:["CAM_ch_temp"],FireworksItem:{tag:{Fireworks:{Flight:3,Explosions:[{Trail:1b,Flicker:1b,Type:4,Colors:[I;16772608],FadeColors:[I;16746859]}]}},id:"minecraft:firework_rocket",Count:1},Life:0,LifeTime:40}

@@ -1,0 +1,36 @@
+{
+		"parent": "cam:countryside_and_magic/root",
+		"criteria": {
+				"put_pumpkin": {
+						"trigger": "minecraft:placed_block",
+						"conditions": {
+								"location": [
+										{
+												"condition": "minecraft:block_state_property",
+												"block": "minecraft:carved_pumpkin"
+										}
+								]
+						}
+				},
+				"put_pumpkin2": {
+						"trigger": "minecraft:placed_block",
+						"conditions": {
+								"location": [
+										{
+												"condition": "minecraft:block_state_property",
+												"block": "minecraft:jack_o_lantern"
+										}
+								]
+						}
+				}
+		},
+		"requirements": [
+				[
+						"put_pumpkin",
+						"put_pumpkin2"
+				]
+		],
+		"rewards": {
+				"function": "cam:village/scarezombie/pumpkin"
+		}
+}

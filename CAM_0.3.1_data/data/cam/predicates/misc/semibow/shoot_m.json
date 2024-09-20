@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "crossbow"
+                ],
+                "nbt": "{CAM_semi_crossbow:1b,Charged:0b,CAM_semibow_candidates:[{}]}"
+            }
+        }
+    }
+}

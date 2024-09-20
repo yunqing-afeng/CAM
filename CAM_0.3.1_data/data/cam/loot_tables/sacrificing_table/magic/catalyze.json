@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:catalyze_1\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:catalyze_2\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:catalyze_3\",lvl:1}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

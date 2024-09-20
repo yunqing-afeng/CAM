@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_star",
+      "nbt": "{CustomModelData:9102108}"
+    },
+    "title": {
+      "translate": "advancements.cam.deep_echoing.title"
+    },
+    "description": {
+      "translate": "advancements.cam.deep_echoing.description"
+    },
+    "frame": "task"
+  },
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "activate": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

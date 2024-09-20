@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9102038,display:{Name:'[{\"translate\":\"item.cam.fishbone_sword\",\"color\":\"white\",\"italic\":\"false\"}]'},id:\"cam:fishbone_sword\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,4 @@
+summon minecraft:lightning_bolt ~ ~9 ~
+summon minecraft:vindicator ~ ~1 ~ {Tags:["Anger_Of_Guard"],Health:90,Attributes:[{Name:"generic.max_health",Base:50}],ActiveEffects:[{Id:5,Amplifier:3,Duration:2000000,ShowParticles:0b}],HandDropChances:[0f,0.0f],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"Enchanter\"}"},SkullOwner:{Id:[I;519817046,1322992857,-1335776226,-753257691],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFkNzA3NzIyNmU5ZTU5Y2U4NzJjZmUxODFlM2VjYzJmNGNlMWJmZDIwMmI2MTRkZDRjZDQ1NjBlODZhMjc1MyJ9fX0="}]}}}}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f]}
+loot replace entity @e[tag=Anger_Of_Guard] weapon.mainhand loot cam:cam/legendary_axe
+kill @e[type=item,nbt={Item:{tag:{summon_guard:1b}}}]

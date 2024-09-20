@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {
+            "translate": "advancements.cam.greattrade.title"
+        },
+        "description": {
+            "translate": "advancements.cam.greattrade.description"
+        },
+        "frame": "task"
+    },
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    }
+}

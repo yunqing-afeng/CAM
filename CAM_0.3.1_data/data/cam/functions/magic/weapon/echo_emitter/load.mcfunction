@@ -1,0 +1,4 @@
+scoreboard objectives add CAM_emit_timer dummy
+scoreboard objectives add CAM_emit_damage dummy
+scoreboard objectives add CAM_emit_trigger used:carrot_on_a_stick
+scoreboard objectives add CAM_emit_count dummy

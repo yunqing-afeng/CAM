@@ -1,0 +1,1 @@
+execute as @e[type=#uin:tech/mobs] store result score @s CAM_htracer_lt run data get entity @s Health

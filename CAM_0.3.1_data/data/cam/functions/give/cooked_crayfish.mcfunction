@@ -1,0 +1,1 @@
+give @s cooked_cod{display:{Name:"{\"translate\":\"item.cam.cooked_crayfish\",\"italic\":\"false\"}"},CustomModelData:9102129,id:"cam:cooked_crayfish"}

@@ -1,0 +1,102 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/clover"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/completeness"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/creation"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/dirt"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/empty"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/fire"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/flower"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/heart"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/ice"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/mist"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/nihility"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/star"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/sun"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/tree"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/water"
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:cam/dream_catcher/wind"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#chinese_knot"
+                                        },
+                                        "score": "CAM_module"
+                                    },
+                                    "range": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "string"
+                        }
+                    ]
+                }    
+            ]
+        }
+    ]
+}

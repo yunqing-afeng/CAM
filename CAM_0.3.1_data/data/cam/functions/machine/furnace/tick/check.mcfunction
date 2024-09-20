@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:diamond"}]} run function cam:machine/furnace/tick/empty

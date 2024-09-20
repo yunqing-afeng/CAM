@@ -1,0 +1,1 @@
+give @s compass{display:{Name:"{\"translate\":\"item.cam.exp_compass\",\"italic\":\"false\"}"},CustomModelData:9102131,id:"cam:exp_compass"}

@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:barrel{Items:[{tag:{id:"fisma:crayfish"}},{id:"minecraft:blaze_powder"}]} if entity @s[scores={CNC_table_count=2}] run item replace block ~ ~ ~ container.16 with cooked_cod{display:{Name:"{\"translate\":\"item.cam.cooked_crayfish\",\"italic\":\"false\"}"},CustomModelData:9102129,id:"cam:cooked_crayfish",Output:1b}

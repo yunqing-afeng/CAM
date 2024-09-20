@@ -1,0 +1,24 @@
+{
+	"parent": "cam:3_year/candle",
+	"display": {
+		"icon": {
+			"item": "minecraft:cake",
+			"nbt": "{CustomModelData:9101006}"
+		},
+		"title": {
+			"translate": "advancements.camani.cake.title"
+		},
+		"description": {
+			"translate": "advancements.camani.cake.description"
+		},
+		"frame": "goal"
+	},
+	"criteria": {
+		"white": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cam:3_year/adv/cake"
+	}
+}

@@ -1,0 +1,2 @@
+advancement revoke @s only cam:countryside_and_magic/enchanted_book
+execute positioned ^ ^ ^3 as @e[type=minecraft:villager,nbt={VillagerData:{profession:"minecraft:librarian"}},sort=nearest,limit=1] at @s run function cam:villager/librarian/resupply_villager

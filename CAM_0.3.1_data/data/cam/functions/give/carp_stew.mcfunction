@@ -1,0 +1,1 @@
+give @s mushroom_stew{display:{Name:"{\"translate\":\"item.cam.carp_stew\",\"italic\":\"false\"}"},CustomModelData:9102125,id:"cam:carp_stew"}

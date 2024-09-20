@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_cod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:9102041,display:{Name:'[{\"translate\":\"item.cam.fish_cooked\",\"color\":\"white\",\"italic\":\"false\"}]'},id:\"cam:cooked_fish\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

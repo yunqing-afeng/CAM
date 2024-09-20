@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:blue_orchid"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sugar_cane"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:cam/fish_bone"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:cam/green_apple"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CAM_wander_p:1,CAM_wander_c:8,CAM_wander:1b}"
+                }
+            ]
+        }
+    ]
+}

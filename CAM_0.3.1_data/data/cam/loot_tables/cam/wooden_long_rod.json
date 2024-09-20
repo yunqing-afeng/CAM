@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:wooden_long_rod\",CustomModelData:9102020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:2,Name:\"CAM\",UUIDLeast:1,UUIDMost:1,UUID:[I;454,131,484741,14545],Slot:mainhand,Operation:0},{AttributeName:\"generic.attack_speed\",Amount:-2.8,Name:\"CAM\",UUIDLeast:1,UUIDMost:1,UUID:[I;456456,564541,14,164],Slot:mainhand,Operation:0}],display:{Lore:['{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":3},{\"translate\":\"attribute.name.generic.attackDamage\"}],\"color\":\"dark_green\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":0.8},{\"translate\":\"attribute.name.generic.attackSpeed\"}],\"color\":\"dark_green\",\"italic\":false}'],Name:'{\"translate\":\"item.cam.wooden_long_rod\",\"italic\":false}'},HideFlags:2,RodModeShift:1b,CAM_rod:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2 @@
+scoreboard objectives add CAM_ero_arrow1 dummy
+scoreboard objectives add CAM_ero_arrow2 dummy

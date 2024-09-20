@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:rabbit_hide"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:rabbit_foot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:chicken"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "cam:cam/fish_bone",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "score",
+                "target": {
+                  "type": "fixed",
+                  "name": "#others"
+                },
+                "score": "CAM_module"
+              },
+              "range": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

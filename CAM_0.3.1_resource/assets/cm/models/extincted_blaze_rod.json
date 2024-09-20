@@ -1,0 +1,6 @@
+{
+        "parent": "item/handheld",
+        "textures": {
+                "layer0": "cm:item/extincted_blaze_rod"
+        }
+}

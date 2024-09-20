@@ -1,0 +1,20 @@
+{
+
+	"pools":[
+    {
+	      "rolls": 1,
+          "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+		  "functions":[
+		    {
+			    "function":"minecraft:set_nbt",
+				"tag":"{id:\"cam:arcane_wand\",CustomModelData:9102124,RepairCost:65,display:{Name:'[{\"translate\":\"item.cam.arcane_wand\",\"italic\":\"false\"}]',Lore:['{\"translate\":\"enchantment.cam.general\",\"with\":[{\"translate\":\"enchant.cam.edification\"},{\"translate\":\"enchantment.level.3\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"enchant.cam.catalyze\",\"color\":\"gray\",\"italic\":\"false\"}','{\"text\":\"\"}','{\"translate\":\"text.cam.arcane_1\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"text.cam.arcane_2\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"text.cam.arcane_3\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"text.cam.arcane_4\",\"color\":\"aqua\",\"italic\":false}']},Enchantments:[{id:\"cam:antigrind\"}],CAM_Enchantments:[{id:\"cam:edification\",lvl:3},{id:\"cam:catalyze_0\",lvl:1}],CAM_antigrind:1b,CAM_grindtype:2}"
+			}
+		  ]
+        }
+                     ]
+	}
+	]
+}

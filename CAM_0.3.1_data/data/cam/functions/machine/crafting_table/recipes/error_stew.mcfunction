@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:barrel{Items:[{tag:{id:"fisma:sea_cucumber"}},{tag:{id:"fisma:creeper_leech"}},{tag:{id:"fisma:mola"}},{tag:{id:"fisma:mystus"}},{tag:{id:"fisma:jellyfish"}},{tag:{id:"fisma:co_fish"}},{id:"minecraft:prismarine_shard"},{id:"minecraft:bowl"}]} if entity @s[scores={CNC_table_count=8}] run function cam:fisma_co/random_stew_sub

@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 8
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:wheat"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:misc/cps",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "score",
+                "target": {
+                  "type": "fixed",
+                  "name": "#cov_wea"
+                },
+                "score": "CAM_module"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cam:misc/cpp_2",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "score",
+                "target": {
+                  "type": "fixed",
+                  "name": "#others"
+                },
+                "score": "CAM_module"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            }
+          ],
+          "name": "minecraft:map"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute as @a[scores={CAM_kill=1..},predicate=cam:enchant/loot] at @s anchored eyes positioned ^ ^ ^2.5 at @e[distance=..2.5,tag=!killer,limit=1,sort=nearest] run function cam:magic/new_enchants/looting/random
+scoreboard players reset @a CAM_kill

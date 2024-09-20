@@ -1,0 +1,1 @@
+execute as @a run scoreboard players operation @s CAM_sapphire2 = @s CAM_sapphire

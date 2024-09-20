@@ -1,0 +1,3 @@
+execute if block ~ ~-1 ~ barrel{Items:[{Slot:4b}]} unless block ~ ~-1 ~ barrel{Items:[{Slot:4b,tag:{CAM_bg:1b}}]} run data modify entity @s Item.id set from block ~ ~-1 ~ Items[{Slot:4b}].id
+execute if block ~ ~-1 ~ barrel{Items:[{Slot:4b}]} unless block ~ ~-1 ~ barrel{Items:[{Slot:4b,tag:{CAM_bg:1b}}]} run data modify entity @s Item.tag set from block ~ ~-1 ~ Items[{Slot:4b}].tag
+execute if block ~ ~-1 ~ barrel{Items:[{Slot:4b,tag:{CAM_bg:1b}}]} run data modify entity @s Item set value {Count:1b,id:"minecraft:emerald",tag:{CustomModelData:9102012,Enchantments:[{}],display:{Name:"[{\"translate\":\"item.cam.sapphire\",\"italic\":\"false\"}]"},id:"cam:sapphire"}}

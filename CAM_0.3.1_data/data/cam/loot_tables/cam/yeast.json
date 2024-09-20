@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:yellow_dye",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"translate\":\"item.cam.yeast\",\"italic\":\"false\"}]'},saccharomyce:1b,CustomModelData:9102016,id:\"cam:yeast\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

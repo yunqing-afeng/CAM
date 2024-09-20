@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.crystallized_ender_ball\",\"italic\":\"false\"}'},CustomModelData:9102128,id:\"cam:crystallized_ender_ball\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

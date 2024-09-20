@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/snowball"
+  },
+  "overrides":[
+		{"predicate":{"custom_model_data":9102109},"model":"cm:woolball"},
+    {"predicate":{"custom_model_data":9102110},"model":"cm:empty"},
+    {"predicate":{"custom_model_data":9102146},"model":"cm:nut"}
+    ]
+}

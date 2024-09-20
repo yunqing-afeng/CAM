@@ -1,0 +1,1 @@
+tellraw @a [{"translate":"text.cam.warning.degrade","color":"red"}]

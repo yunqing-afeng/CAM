@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:erosion_arrow\",Potion:CBC,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:400},{Id:19,Amplifier:0,Duration:400}],CustomPotionColor:14807065,display:{Name:'[{\"translate\":\"item.cam.erosion_arrow\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.erosion\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}']},HideFlags:32,CustomModelData:9102029}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

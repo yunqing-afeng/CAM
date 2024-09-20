@@ -1,0 +1,1 @@
+give @s firework_star{poison:1b,Enchantments:[{}],display:{Lore:["{\"translate\":\"tag.cam.poison\",\"color\":\"gray\",\"italic\":\"false\"}"],Name:"[{\"translate\":\"item.cam.poisonheart\",\"color\":\"dark_green\",\"italic\":\"false\"}]"},CustomModelData:9102001,id:"cam:poison_heart"}

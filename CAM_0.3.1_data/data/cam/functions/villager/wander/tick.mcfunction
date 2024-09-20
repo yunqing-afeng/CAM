@@ -1,0 +1,1 @@
+execute as @e[type=wandering_trader,tag=!CAM_wander_tri] at @s run function cam:villager/wander/trade

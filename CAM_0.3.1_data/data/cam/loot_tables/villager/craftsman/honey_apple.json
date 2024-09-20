@@ -1,0 +1,46 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/honey_apple",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "max": 3,
+                                        "min": 1
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#foods"
+                                        },
+                                        "score": "CAM_module"
+                                    },
+                                    "range": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "apple"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

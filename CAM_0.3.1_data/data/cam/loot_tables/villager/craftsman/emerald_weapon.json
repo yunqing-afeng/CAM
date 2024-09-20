@@ -1,0 +1,144 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 1
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 2
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 26
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 3
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 34
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 4
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 22,
+                "max": 57
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 5
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 36,
+                "max": 64
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 6
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 14
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 7
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 32
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 8
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

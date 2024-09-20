@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "rewards": {
+    "function": "auto_encoder:encode"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:netherite_harpoon\",water:1b,display:{Name:'[{\"translate\":\"item.cam.netherite_harpoon\",\"italic\":\"false\"}]'},CustomModelData:9102047}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "tag",
+                    "name": "minecraft:saplings",
+                    "expand": true
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CAM_wander_p:5,CAM_wander_c:5,CAM_wander:1b}"
+                }
+            ]
+        }
+    ]
+}

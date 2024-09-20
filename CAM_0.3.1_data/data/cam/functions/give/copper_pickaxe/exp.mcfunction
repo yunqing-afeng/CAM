@@ -1,0 +1,1 @@
+give @s stone_pickaxe{display:{Name:"{\"translate\":\"item.cam.copper_pickaxe_exp\",\"italic\":false}"},CustomModelData:9102121,id:"cam:copper_pickaxe",CAM_cp_oxi:1,CAM_Enchantments:[{id:"cam:breakable",lvl:2,hide:1b}]}

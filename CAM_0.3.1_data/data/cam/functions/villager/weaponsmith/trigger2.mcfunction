@@ -1,0 +1,2 @@
+data modify entity @s Offers.Recipes insert 5 value {maxUses:12,buy:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:9102012,Enchantments:[{}],display:{Name:"[{\"translate\":\"item.cam.sapphire\",\"italic\":\"false\"}]"}}},sell:{id:"minecraft:emerald",Count:3b},uses:0,xp:15,priceMutiplier:0.2f,rewardExp:1b,demand:0}
+tag @s add CAM_triggered2

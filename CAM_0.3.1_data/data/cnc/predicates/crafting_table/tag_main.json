@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "cam:crafting_table/coal"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "cam:crafting_table/log"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "cam:crafting_table/planks"
+        }
+    ]
+}

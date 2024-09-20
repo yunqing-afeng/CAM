@@ -1,0 +1,145 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:gunpowder",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:1,CAM_wander_c:8,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 200
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:podzol",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:3,CAM_wander_c:6,CAM_wander:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        }
+                    ],
+                    "weight": 150
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:packed_ice",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:3,CAM_wander_c:6,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 150
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pufferfish_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:5,CAM_wander_c:4,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cod_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:5,CAM_wander_c:4,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:salmon_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:5,CAM_wander_c:4,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tadpole_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:5,CAM_wander_c:4,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tropical_fish_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:5,CAM_wander_c:4,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:blue_ice",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:6,CAM_wander_c:6,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 80
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:amethyst_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:5,CAM_wander_c:8,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 100
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:axolotl_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:15,CAM_wander_c:1,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:cam/four_leaf_clover",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_wander_p:10,CAM_wander_c:3,CAM_wander:1b}"
+                        }
+                    ],
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

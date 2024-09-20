@@ -1,0 +1,10 @@
+scoreboard players set #heart CAM_module 0
+scoreboard players set #magnet CAM_module 0
+scoreboard players set #estinguish CAM_module 0
+scoreboard players set #monster CAM_module 0
+scoreboard players set #foods CAM_module 0
+scoreboard players set #others CAM_module 0
+scoreboard players set #fishing CAM_module 0
+scoreboard players set #sapphire CAM_module 0
+scoreboard players set #bone_arrow CAM_module 0
+scoreboard players set #sculk CAM_module 0

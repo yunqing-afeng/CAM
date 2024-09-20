@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "weapon:item/falcon_pulling_1"
+    }
+}

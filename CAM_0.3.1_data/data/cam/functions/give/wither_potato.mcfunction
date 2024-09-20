@@ -1,0 +1,1 @@
+give @s poisonous_potato{display:{Name:"[{\"translate\":\"item.cam.wither_potato\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},id:"cam:wither_potato",CustomModelData:9102083,CAM_wither_potato:1b}

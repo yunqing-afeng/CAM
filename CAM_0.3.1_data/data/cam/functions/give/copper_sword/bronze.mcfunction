@@ -1,0 +1,1 @@
+give @s diamond_sword{display:{Name:"{\"translate\":\"item.cam.copper_sword_bronze\",\"italic\":false}"},CustomModelData:9102087,id:"cam:copper_sword",CAM_cps_type:2,CAM_cps_oxi:1,CAM_Enchantments:[{id:"cam:breakable",lvl:1,hide:1b}]}

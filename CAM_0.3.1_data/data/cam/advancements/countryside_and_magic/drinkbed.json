@@ -1,0 +1,11 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "drink": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "cam:village/wine/winedrink/reset"
+  }
+}

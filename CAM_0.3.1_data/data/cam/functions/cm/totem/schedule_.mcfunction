@@ -1,0 +1,1 @@
+execute as @a[tag=CAM_totem] run function cam:cm/totem/totem

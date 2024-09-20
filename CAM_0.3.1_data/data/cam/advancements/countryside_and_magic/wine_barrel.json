@@ -1,0 +1,25 @@
+{
+	"parent": "cam:countryside_and_magic/root",
+	"criteria": {
+		"put_table": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:barrel"
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"nbt": "{CAM_barrel:1b}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cam:machine/barrel/set"
+	}
+}

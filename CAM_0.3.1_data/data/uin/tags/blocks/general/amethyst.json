@@ -1,0 +1,17 @@
+{
+	"values": [
+		{
+			"required": false,
+			"id": "n/a",
+			"version": 1.17
+		},
+		{
+			"required": false,
+			"id": "#uin:general/amethyst_bud"
+		},
+		{
+			"required": false,
+			"id": "minecraft:amethyst_cluster"
+		}
+	]
+}

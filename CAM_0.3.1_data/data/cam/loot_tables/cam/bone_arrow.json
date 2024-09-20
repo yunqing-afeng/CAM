@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{HideFlags:32,Potion:CSJSJSJ,CustomPotionEffects:[{Id:26,Amplifier:0,Duration:89,ShowParticles:false},{Id:27,Amplifier:0,Duration:77,ShowParticles:false}],CustomModelData:9102096,CAM_bone_arrow:1b,id:\"cam:bone_arrow\",display:{Name:'[{\"translate\":\"item.cam.bone_arrow\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

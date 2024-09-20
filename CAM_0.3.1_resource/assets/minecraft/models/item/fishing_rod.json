@@ -1,0 +1,41 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        {"predicate": {"cast": 1},"model": "item/fishing_rod_cast"},
+        {"predicate": {"custom_model_data": 613001},"model": "fisma:rod/1rod"},
+        {"predicate": {"custom_model_data": 613001,"cast": 1},"model": "fisma:rod/1cast"},
+        {"predicate": {"custom_model_data": 613002},"model": "fisma:rod/2rod"},
+        {"predicate": {"custom_model_data": 613002,"cast": 1},"model": "fisma:rod/2cast"},
+        {"predicate": {"custom_model_data": 613003},"model": "fisma:rod/3rod"},
+        {"predicate": {"custom_model_data": 613003,"cast": 1},"model": "fisma:rod/3cast"},
+        {"predicate": {"custom_model_data": 613004},"model": "fisma:rod/4rod"},
+        {"predicate": {"custom_model_data": 613004,"cast": 1},"model": "fisma:rod/4cast"},
+        {"predicate": {"custom_model_data": 613005},"model": "fisma:rod/5rod"},
+        {"predicate": {"custom_model_data": 613005,"cast": 1},"model": "fisma:rod/5cast"},
+        {"predicate": {"custom_model_data": 613006},"model": "fisma:rod/6rod"},
+        {"predicate": {"custom_model_data": 613006,"cast": 1},"model": "fisma:rod/6cast"},
+        {"predicate": {"custom_model_data": 613007},"model": "fisma:rod/7rod"},
+        {"predicate": {"custom_model_data": 613007,"cast": 1},"model": "fisma:rod/7cast"},
+		{
+		    "predicate": {"custom_model_data":9102033},
+            "model": "weapon:chainblade_sub"
+		},
+		{
+		    "predicate": {"custom_model_data":9102033,"cast": 1},
+            "model": "weapon:chainblade_sub_shooted"
+		},
+        {
+		    "predicate": {"custom_model_data":9102082},
+            "model": "weapon:chainblade_sub_2"
+		},
+		{
+		    "predicate": {"custom_model_data":9102082,"cast": 1},
+            "model": "weapon:chainblade_sub_shooted"
+		},
+        {"predicate": {"custom_model_data": 9102129},"model": "fisma_co:echo_rod"},
+        {"predicate": {"custom_model_data": 9102129,"cast": 1},"model": "fisma_co:echo_rod_cast"}
+    ]
+}

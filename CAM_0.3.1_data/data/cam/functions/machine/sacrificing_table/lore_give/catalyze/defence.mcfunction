@@ -1,0 +1,1 @@
+data modify block ~ 319 ~ Items[0].tag.display.Lore prepend value "{\"translate\":\"enchant.cam.catalyze.d\",\"color\":\"gray\",\"italic\":\"false\"}"

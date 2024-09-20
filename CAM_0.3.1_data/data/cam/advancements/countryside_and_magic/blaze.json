@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:charcoal",
+      "nbt": "{CustomModelData:9102093}"
+    },
+    "title": {
+      "translate": "advancements.cam.blaze.title"
+    },
+    "description": {
+      "translate": "advancements.cam.blaze.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "trigger1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "blaze",
+          "location": {
+            "block": {
+              "tag": "cam:water_like"
+            }
+          }
+        }
+      }
+    },
+    "trigger2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "blaze",
+          "location": {
+            "block": {
+              "tag": "uin:tech/all",
+              "state": {
+                "waterlogged": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trigger1",
+      "trigger2"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

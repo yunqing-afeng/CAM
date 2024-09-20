@@ -1,0 +1,149 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/0"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/4"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/5"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/6"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/7"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/8"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/9"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/10"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/11"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/12"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/13"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/14"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/15"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/16"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/17"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/18"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/19"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/20"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/21"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/22"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/23"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/24"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/25"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/26"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/27"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/28"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/29"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/30"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/31"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/32"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/33"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/34"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cam:misc/antigrind/35"
+    }
+  ]
+}

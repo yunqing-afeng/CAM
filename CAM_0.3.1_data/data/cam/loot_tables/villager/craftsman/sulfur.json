@@ -1,0 +1,46 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/sulfur",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "max": 10,
+                                        "min": 8
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#others"
+                                        },
+                                        "score": "CAM_module"
+                                    },
+                                    "range": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "charcoal"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

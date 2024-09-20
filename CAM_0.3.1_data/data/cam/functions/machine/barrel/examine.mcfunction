@@ -1,0 +1,19 @@
+execute if data block ~ 319 ~ Items[{Slot:26b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 26
+execute if data block ~ 319 ~ Items[{Slot:25b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 25
+execute if data block ~ 319 ~ Items[{Slot:24b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 24
+execute if data block ~ 319 ~ Items[{Slot:23b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 23
+execute if data block ~ 319 ~ Items[{Slot:22b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 22
+execute if data block ~ 319 ~ Items[{Slot:21b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 21
+execute if data block ~ 319 ~ Items[{Slot:20b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 20
+execute if data block ~ 319 ~ Items[{Slot:19b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 19
+execute if data block ~ 319 ~ Items[{Slot:18b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 18
+execute if data block ~ 319 ~ Items[{Slot:17b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 17
+execute if data block ~ 319 ~ Items[{Slot:16b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 16
+execute if data block ~ 319 ~ Items[{Slot:15b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 15
+execute if data block ~ 319 ~ Items[{Slot:14b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 14
+execute if data block ~ 319 ~ Items[{Slot:13b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 13
+execute if data block ~ 319 ~ Items[{Slot:12b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 12
+execute if data block ~ 319 ~ Items[{Slot:11b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 11
+execute if data block ~ 319 ~ Items[{Slot:10b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 10
+execute if data block ~ 319 ~ Items[{Slot:9b,tag:{CAM_wine:1b}}] run scoreboard players set @s CAM_barrelslot 9
+

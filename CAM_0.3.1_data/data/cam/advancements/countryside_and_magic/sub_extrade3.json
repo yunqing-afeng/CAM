@@ -1,0 +1,19 @@
+{
+	"parent": "cam:countryside_and_magic/root",
+	"criteria": {
+		"emerald1": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"count": 3,
+					"items": [
+						"minecraft:emerald"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cam:advancements/excount3"
+	}
+}

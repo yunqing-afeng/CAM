@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:villager/craftsman/palace_lantern",
+                                    "weight": 7
+                                },
+                                {
+                                    "type": "loot_table",
+                                    "name": "cam:villager/craftsman/kongmin_lantern",
+                                    "weight": 3
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#lantern"
+                                        },
+                                        "score": "CAM_module"
+                                    },
+                                    "range": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:lantern"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

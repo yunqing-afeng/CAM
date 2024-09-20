@@ -1,0 +1,11 @@
+{
+    "values":[
+        "cam:machine/crafting_table/recipes/bless_of_sea",
+        "cam:machine/crafting_table/recipes/carp_stew",
+        "cam:machine/crafting_table/recipes/crayfish",
+        "cam:machine/crafting_table/recipes/error_stew",
+        "cam:machine/crafting_table/recipes/sea_cucumber_stew",
+        "cam:machine/crafting_table/recipes/crystallized_ender_ball",
+        "cam:machine/crafting_table/recipes/echo_rod"
+    ]
+}

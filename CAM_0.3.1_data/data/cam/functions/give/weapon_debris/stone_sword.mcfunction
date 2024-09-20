@@ -1,0 +1,1 @@
+give @s firework_star{display:{Name:'{"translate":"item.cam.weapon_debris","italic":false}'},CustomModelData:9102143,id:"cam:weapon_debris_stone_sword"}

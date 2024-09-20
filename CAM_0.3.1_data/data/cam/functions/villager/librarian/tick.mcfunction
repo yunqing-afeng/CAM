@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:villager,predicate=cam:villager/trigger/librarian] if predicate cam:villager/librarian run data modify entity @s Offers.Recipes[{sell:{id:"minecraft:enchanted_book"},maxUses:12}].maxUses set value 1

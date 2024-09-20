@@ -1,0 +1,51 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "tag": "cam:bows",
+                        "nbt": "{Enchantments:[{id:\"minecraft:multishot\"}]}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "tag": "cam:bows"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "offhand": {
+                                        "tag": "cam:bows",
+                                        "nbt": "{Enchantments:[{id:\"minecraft:multishot\"}]}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"CAM_sac_ready\"]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "cam:sacrifice/recast_correspond"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "cam:sacrifice/recast"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "chest": {
+                          "nbt": "{CAM_anti_recast:1b}"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "chest": {
+                          "nbt": "{CAM_anti_sacrifice:1b}"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "cam:sacrifice/sacrifice"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "cam:sacrifice/sacrificing"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "equipment": {
+                          "chest": {
+                            "tag": "cam:weapons"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

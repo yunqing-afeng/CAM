@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:item,predicate=cam:villager/weed] at @s unless entity @a[distance=..1.425] if entity @e[type=minecraft:villager,distance=..1.425] run tp @s @e[limit=1,type=villager,sort=nearest]
+execute as @e[type=minecraft:item,predicate=cam:villager/weed] at @s unless entity @a[distance=..1.425] if entity @e[type=minecraft:villager,distance=..1.425] run kill @s
+function cam:villager/farmer/farming/farm_doll0

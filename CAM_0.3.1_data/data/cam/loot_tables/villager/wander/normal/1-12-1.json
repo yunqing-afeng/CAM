@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:dandelion"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:poppy"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:allium"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:azure_bluet"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:red_tulip"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:orange_tulip"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:white_tulip"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pink_tulip"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:oxeye_daisy"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cornflower"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fern"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wheat_seeds"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_seeds"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:melon_seeds"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot_seeds"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:brown_mushroom"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:red_mushroom"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:vine"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glow_lichen"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:cam/weed"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CAM_wander_p:1,CAM_wander_c:12,CAM_wander:1b}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/netherite_axe"
+    },
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102059},"model":"weapon:netherite_hammer"},
+        {"predicate":{"custom_model_data":9102096},"model":"weapon:axe_of_illager_king_2"},
+        {"predicate":{"custom_model_data":9102097},"model":"weapon:axe_of_illager_king_ex"}
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:falcon\",Enchantments:[{id:\"minecraft:quick_charge\",lvl:2},{id:\"minecraft:unbreaking\",lvl:5}],CAM_Enchantments:[{id:\"cam:edification\",lvl:2},{id:\"cam:swift\",lvl:1}],CustomModelData:9102107,AttributeModifiers:[{Operation:0,Amount:5,UUID:[I;183,14,54563,65],Slot:mainhand,AttributeName:\"generic.attack_damage\",Name:\"CBC\"},{Operation:0,Amount:-3.2,UUID:[I;183,14,54564,4564],Slot:mainhand,AttributeName:\"generic.attack_speed\",Name:\"CBC\"}],display:{Name:'{\"translate\":\"item.cam.falcon\",\"italic\": false}',Lore:['{\"translate\":\"enchantment.cam.general\",\"with\":[{\"translate\":\"enchant.cam.edification\"},{\"translate\":\"enchantment.level.2\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"enchant.cam.swift\",\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":6},{\"translate\":\"attribute.name.generic.attackDamage\"}],\"color\":\"dark_green\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":0.8},{\"translate\":\"attribute.name.generic.attackSpeed\"}],\"color\":\"dark_green\",\"italic\":false}']},RepairCost:65,CAM_antigrind:1b,CAM_grindtype:2,HideFlags:2,CAM_semi_crossbow:1b,CAM_semibow_candidates:[],CAM_semibow_capacity:5,CustomDamage:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

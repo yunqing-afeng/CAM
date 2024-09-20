@@ -1,0 +1,1 @@
+give @s iron_axe{display:{Name:"{\"translate\":\"item.cam.butcher_knife\",\"italic\":\"false\"}"},CustomModelData:9102143,id:"cam:butcher_knife",CAM_butcher:1b}

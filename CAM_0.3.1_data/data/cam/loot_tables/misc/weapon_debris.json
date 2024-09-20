@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/weapon_debris/bow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/weapon_debris/stone_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/weapon_debris/iron_axe"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/weapon_debris/iron_sword"
+                }
+            ]
+        }
+    ]
+}

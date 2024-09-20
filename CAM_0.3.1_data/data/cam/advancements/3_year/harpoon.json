@@ -1,0 +1,30 @@
+{
+	"parent": "cam:3_year/_heart_1",
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick",
+			"nbt": "{CustomModelData:9102113}"
+		},
+		"title": {
+			"translate": "advancements.camani.harpoon.title"
+		},
+		"description": {
+			"translate": "advancements.camani.harpoon.description"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"heart": {
+			"trigger": "minecraft:impossible"
+		},
+		"cake": {
+			"trigger": "minecraft:impossible"
+		},
+		"croissant": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cam:3_year/adv/harpoon"
+	}
+}

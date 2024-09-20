@@ -1,0 +1,1 @@
+give @s tropical_fish{display:{Name:"{\"translate\":\"item.cam.cone\",\"italic\":\"false\"}"},CustomModelData:9102145,id:"cam:cone"}

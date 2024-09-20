@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rabbit_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.rice_fried_beef\",\"color\":\"white\",\"italic\":\"false\"}'},CustomModelData:9102058,id:\"cam:rice_fried_beef\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

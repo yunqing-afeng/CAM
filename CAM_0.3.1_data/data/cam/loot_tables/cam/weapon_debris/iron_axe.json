@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.weapon_debris\",\"italic\":false}'},CustomModelData:9102141,id:\"cam:weapon_debris_iron_axe\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

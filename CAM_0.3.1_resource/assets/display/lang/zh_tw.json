@@ -1,0 +1,7 @@
+{
+	"item.cam.item_displayer": "§r物品展示台",
+	"item.cam.item_displayer_button_11":"§r物品展示现已启用",
+	"item.cam.item_displayer_button_12":"§r物品展示现已禁用",
+	"item.cam.item_displayer_button_21":"§r物品展示因上方有方块遮挡而不可用",
+	"item.cam.item_displayer_button_22":"§r物品展示现已禁用"
+}

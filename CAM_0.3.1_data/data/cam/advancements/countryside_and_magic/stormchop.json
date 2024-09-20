@@ -1,0 +1,17 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cam:magic/new_enchants/stormchop/reset"
+  }
+}

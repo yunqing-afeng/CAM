@@ -1,0 +1,24 @@
+{
+	"parent": "cam:3_year/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin"
+		},
+		"title": {
+			"translate": "advancements.camani.pumpkin.title"
+		},
+		"description": {
+			"translate": "advancements.camani.pumpkin.description"
+		},
+		"frame": "task",
+		"hidden": true
+	},
+	"criteria": {
+		"heart": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cam:3_year/adv/heart2"
+	}
+}

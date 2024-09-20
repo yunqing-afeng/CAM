@@ -1,0 +1,29 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102007},"model":"weapon:ender_sword"},
+		{"predicate":{"custom_model_data":9102010},"model":"weapon:rattlesnake"},
+		{"predicate":{"custom_model_data":9102015},"model":"cm:spear"},
+		{"predicate":{"custom_model_data":9102019},"model":"weapon:bamboo_sword"},
+		{"predicate":{"custom_model_data":9102022},"model":"weapon:metal_long_rod"},
+		{"predicate":{"custom_model_data":9102023},"model":"weapon:metal_long_rod_1"},
+		{"predicate":{"custom_model_data":9102031},"model":"weapon:chainblade_whole"},
+		{"predicate":{"custom_model_data":9102032},"model":"weapon:chainblade_main"},
+		{"predicate":{"custom_model_data":9102037},"model":"weapon:glaive"},
+		{"predicate":{"custom_model_data":9102044},"model":"cm:iron_harpoon"},
+		{"predicate":{"custom_model_data":9102080},"model":"weapon:chainblade_whole_2"},
+		{"predicate":{"custom_model_data":9102081},"model":"weapon:chainblade_main_2"},
+		{"predicate":{"custom_model_data":9102084},"model":"weapon:copper_sword"},
+		{"predicate":{"custom_model_data":9102085},"model":"weapon:copper_sword_exposed"},
+		{"predicate":{"custom_model_data":9102086},"model":"weapon:copper_sword_ragged"},
+		{"predicate":{"custom_model_data":9102087},"model":"weapon:copper_sword_bronze"},
+		{"predicate":{"custom_model_data":9102088},"model":"weapon:cps"},
+		{"predicate":{"custom_model_data":9102089},"model":"weapon:cps_exposed"},
+		{"predicate":{"custom_model_data":9102090},"model":"weapon:cps_ragged"},
+		{"predicate":{"custom_model_data":9102137},"model":"weapon:lance"},
+		{"predicate":{"custom_model_data":9102138},"model":"cm:ceremonial_sword"}
+    ]
+}

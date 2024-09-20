@@ -1,0 +1,24 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "used_totem": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ],
+          "nbt": "{CAM_totem:1b}"
+        }
+      },
+      "trigger": "minecraft:used_totem"
+    }
+  },
+  "requirements": [
+    [
+      "used_totem"
+    ]
+  ],
+  "rewards": {
+    "function": "cam:cm/totem/schedule"
+  }
+}

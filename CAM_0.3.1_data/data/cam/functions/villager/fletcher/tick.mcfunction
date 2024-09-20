@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:villager,predicate=cam:villager/trigger/fletcher] if predicate cam:villager/fletcher run function cam:villager/fletcher/offer_deal

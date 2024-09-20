@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "#uin:general/armors",
+    "#uin:general/axes",
+    "#uin:general/weapons",
+    "#uin:general/pickaxes",
+    "#uin:general/shovels",
+    "#uin:general/hoes",
+    "#uin:general/banner_patterns",
+    "#uin:general/soups",
+    "#uin:general/shulker_boxes",
+    "#uin:general/fishing_rods",
+    "#beds",
+    "#music_discs",
+    "#cnc:buckets_but_no_bucket",
+    "#boats",
+    "minecraft:elytra",
+    "minecraft:saddle",
+    "minecraft:writable_book",
+    "minecraft:cake",
+    "minecraft:flint_and_steel",
+    "minecraft:shears",
+    "minecraft:enchanted_book",
+    "minecraft:totem_of_undying",
+    "minecraft:shield",
+    "minecraft:potion",
+    "minecraft:debug_stick",
+    "minecraft:netherite_sword"
+  ]
+}

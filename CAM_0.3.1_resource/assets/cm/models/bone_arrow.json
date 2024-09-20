@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "cm:item/empty",
+        "layer1": "cm:item/bone_arrow"
+    }
+}

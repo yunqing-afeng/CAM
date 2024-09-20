@@ -1,0 +1,2 @@
+scoreboard objectives add CAM_cane_use used:carrot_on_a_stick
+scoreboard objectives add CAM_cane_timer dummy

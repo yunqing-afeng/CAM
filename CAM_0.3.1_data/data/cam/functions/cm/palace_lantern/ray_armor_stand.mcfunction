@@ -1,0 +1,2 @@
+execute if entity @s[distance=..7] positioned ^ ^ ^ if block ~ ~ ~ minecraft:lantern align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=minecraft:armor_stand,distance=..0.5,tag=cam_palace_lantern] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["CAM_block_pos"]}
+execute if entity @s[distance=..7] unless entity @e[type=minecraft:area_effect_cloud,distance=..6,tag=CAM_block_pos] positioned ^ ^ ^0.005 anchored feet run function cam:cm/palace_lantern/ray_armor_stand

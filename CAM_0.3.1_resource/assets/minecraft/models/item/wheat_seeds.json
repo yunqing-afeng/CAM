@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/wheat_seeds"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":9102048},"model":"cm:rice"},
+    {"predicate":{"custom_model_data":9102049},"model":"cm:rice_stage0"},
+	{"predicate":{"custom_model_data":9102050},"model":"cm:rice_stage1"},
+	{"predicate":{"custom_model_data":9102051},"model":"cm:rice_stage2"},
+	{"predicate":{"custom_model_data":9102052},"model":"cm:rice_stage3"},
+	{"predicate":{"custom_model_data":9102053},"model":"cm:rice_stage4"},
+	{"predicate":{"custom_model_data":9102054},"model":"cm:rice_stage5"},
+	{"predicate":{"custom_model_data":9102055},"model":"cm:rice_stage6"},
+	{"predicate":{"custom_model_data":9102056},"model":"cm:rice_stage7"}
+  ]
+}

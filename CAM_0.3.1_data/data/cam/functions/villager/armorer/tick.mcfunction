@@ -1,0 +1,1 @@
+execute as @e[predicate=cam:villager/trigger/armorer,predicate=cam:villager/armorer] run function cam:villager/armorer/offer_deal

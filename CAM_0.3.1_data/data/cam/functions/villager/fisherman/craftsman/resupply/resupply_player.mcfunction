@@ -1,0 +1,2 @@
+advancement revoke @s only cam:countryside_and_magic/craftsman
+execute positioned ^ ^ ^3 as @e[type=minecraft:villager,nbt={VillagerData:{profession:"minecraft:fisherman"},Tags:["CAM_craftsman"]},sort=nearest,distance=..5] at @s run function cam:villager/fisherman/craftsman/resupply/resupply_villager

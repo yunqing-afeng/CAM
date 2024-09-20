@@ -1,0 +1,1 @@
+function cam:update/entity/craftsman

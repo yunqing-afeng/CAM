@@ -1,0 +1,17 @@
+execute if score #time CAM_note_timer matches 0 run particle note ~ ~-.5 ~ 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 1 run particle note ~1 ~-0.375 ~ 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 2 run particle note ~0.707 ~-0.25 ~0.707 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 3 run particle note ~ ~-0.125 ~1 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 4 run particle note ~-0.707 ~ ~0.707 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 5 run particle note ~-1 ~0.125 ~ 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 6 run particle note ~-0.707 ~0.25 ~-0.707 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 7 run particle note ~ ~0.375 ~-1 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 8 run particle note ~0.707 ~0.5 ~-0.707 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 9 run particle note ~1 ~0.625 ~ 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 10 run particle note ~0.707 ~0.75 ~0.707 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 11 run particle note ~ ~0.875 ~1 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 12 run particle note ~-0.707 ~1 ~0.707 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 13 run particle note ~-1 ~1.125 ~ 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 14 run particle note ~-0.707 ~1.25 ~-0.707 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 15 run particle note ~ ~1.375 ~-1 0 0 0 0.2 1 normal
+execute if score #time CAM_note_timer matches 16 run particle note ~0.707 ~1.5 ~-0.707 0 0 0 0.2 1 normal

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft_chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:1,Amplifier:1,Duration:200},{Id:3,Amplifier:1,Duration:300},{Id:5,Amplifier:1,Duration:400},{Id:9,Amplifier:0,Duration:40},{Id:26,Amplifier:0,Duration:2000}],display:{Name:'[{\"translate\":\"winter_wine\",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomPotionColor:9892057}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

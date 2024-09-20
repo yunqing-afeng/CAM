@@ -1,0 +1,1 @@
+function cam:monster/warden/allay/tick

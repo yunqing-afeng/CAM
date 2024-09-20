@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ Items[{Slot:0b}] run item replace block ~ ~ ~ container.0 with firework_star{CustomModelData:9102024,display:{Name:"{\"translate\":\"item.cnc.crafting_table.out\",\"italic\":\"false\"}"},CNC_bg:1b}

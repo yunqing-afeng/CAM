@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple",
+            "nbt": "{CustomModelData:9102017}"
+        },
+        "title": {
+            "translate": "advancements.cam.legendary_axe.title"
+        },
+        "description": {
+            "translate": "advancements.cam.legendary_axe.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "cam:countryside_and_magic/village_tales",
+    "criteria": {
+        "default": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:golden_axe"
+                        ],
+                        "nbt": "{id:\"cam:legendary_axe\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

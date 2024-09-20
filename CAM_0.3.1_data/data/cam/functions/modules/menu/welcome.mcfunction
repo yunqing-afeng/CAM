@@ -1,0 +1,3 @@
+scoreboard players set #welcome CAM_module 0
+tellraw @s [{"translate":"cam.text.modmenu_tip2","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"insertion":"/function cam:modules/menu/welcome2","hoverEvent":{"action":"show_text","value":{"translate":"cam.text.modmenu_tip0"}}}]
+tellraw @s [{"translate":"cam.text.modmenu_tip3","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"insertion":"/function cam:modules/menu/main","hoverEvent":{"action":"show_text","value":{"translate":"cam.text.modmenu_tip0"}}}]

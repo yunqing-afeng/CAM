@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\"},maxUses:12}]}}"
+            }
+        }
+    ]
+}

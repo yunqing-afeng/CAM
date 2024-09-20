@@ -1,0 +1,1 @@
+give @s golden_sword{id:"cam:golden_harpoon",water:1b,display:{Name:"[{\"translate\":\"item.cam.golden_harpoon\",\"italic\":\"false\"}]"},CustomModelData:9102045}

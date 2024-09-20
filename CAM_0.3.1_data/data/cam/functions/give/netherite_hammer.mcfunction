@@ -1,0 +1,1 @@
+give @p minecraft:netherite_axe{id:"cam:netherite_hammer",display:{Name:"[{\"translate\":\"item.cam.netherite_hammer\",\"italic\":\"false\"}]"},CustomModelData:9102059} 1

@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:armor_stand,tag=CAM_fish] at @s run data modify entity @e[type=minecraft:item,sort=nearest,distance=..1,limit=1] Item set value {tag:{CustomModelData:9102041,display:{Name:"[{\"translate\":\"item.cam.fish_cooked\",\"color\":\"white\",\"italic\":\"false\"}]"},id:"cam:cooked_fish"},id:"minecraft:cooked_cod",Count:1b}
+execute as @e[type=minecraft:armor_stand,tag=CAM_fish] run tag @s remove CAM_fish

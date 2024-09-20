@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=cam_furnace_like] at @s run function cam:machine/furnace/tick/recipes/bamboo/bamboo_

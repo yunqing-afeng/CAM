@@ -1,0 +1,1 @@
+give @s green_dye{id:"cam:four_leaf_clover",CustomModelData:9102060,CAM_luck:1b,display:{Name:"[{\"translate\":\"item.cam.four_leaf_clover\",\"color\":\"white\",\"italic\":\"false\"}]",Lore:["{\"translate\":\"enchantment.cam.general\",\"with\":[{\"translate\":\"enchant.cam.phylactery\"}],\"color\":\"gray\",\"italic\":\"false\"}"]}}

@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:9102040,display:{Name:\"[{\\\"translate\\\":\\\"item.cam.fish\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":\\\"false\\\"}]\"},id:\"cam:fish\"}",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                      {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                          "condition": "minecraft:any_of",
+                          "terms": [
+                            {
+                              "condition": "minecraft:inverted",
+                              "term": {
+                                "condition": "minecraft:any_of",
+                                "terms": [
+                                  {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                      "biome": "minecraft:frozen_ocean"
+                                    }
+                                  },
+                                  {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                      "biome": "minecraft:frozen_river"
+                                    }
+                                  },
+                                  {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                      "biome": "minecraft:deep_frozen_ocean"
+                                    }
+                                  },
+                                  {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                      "biome": "minecraft:cold_ocean"
+                                    }
+                                  },
+                                  {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                      "biome": "minecraft:deep_cold_ocean"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "condition": "minecraft:random_chance",
+                              "chance": 0.2
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.8
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

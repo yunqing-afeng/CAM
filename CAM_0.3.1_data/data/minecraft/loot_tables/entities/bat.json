@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:cam/bushmeat",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.1,
+              "looting_multiplier": 0.03
+            },
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "score",
+                "target": {
+                  "type": "fixed",
+                  "name": "#foods"
+                },
+                "score": "CAM_module"
+              },
+              "range": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

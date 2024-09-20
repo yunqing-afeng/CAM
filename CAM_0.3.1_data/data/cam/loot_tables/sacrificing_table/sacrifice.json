@@ -1,0 +1,109 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "cam:sacrificing_table/physics/physics",
+                    "weight": 40
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:sacrificing_table/magic/magic",
+                    "weight": 40
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:sacrificing_table/curse/curse",
+                    "weight": 5,
+                    "conditions": [
+                        {
+                            "condition": "inverted",
+                            "term": {
+                                "condition": "minecraft:reference",
+                                "name": "cam:sacrifice/four_leaf_clover"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_Enchantments:[{id:\"cam:failure\",lvl:1}]}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "inverted",
+                            "term": {
+                                "condition": "minecraft:reference",
+                                "name": "cam:sacrifice/four_leaf_clover"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 0,
+                    "quality": 10,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CAM_Enchantments:[{id:\"cam:failure\",lvl:1}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:sacrificing_table/magic/phylactery",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:reference",
+                            "name": "cam:sacrifice/four_leaf_clover"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:sacrificing_table/magic/ender_looting",
+                    "weight": 20,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:reference",
+                            "name": "cam:sacrifice/ender_pearl"
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:sacrificing_table/mysterious/mysterious",
+                    "weight": 1000000,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:reference",
+                            "name": "cam:sacrifice/nether_star"
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:sacrificing_table/wither",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:reference",
+                            "name": "cam:sacrifice/wither_skeleton_skull"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

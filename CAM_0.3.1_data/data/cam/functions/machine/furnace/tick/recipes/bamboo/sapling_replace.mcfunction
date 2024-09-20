@@ -1,0 +1,3 @@
+data modify block ~ ~ ~ Items insert -1 value {Slot:2b,tag:{display:{Name:"{\"translate\":\"item.cam.baked_bamboo_sapling\",\"italic\":\"false\"}"},CustomModelData:9102078,CAM_output:1b,id:"cam:baked_bamboo_sapling"},id:"minecraft:baked_potato",Count:1b}
+execute store result block ~ ~ ~ Items[{Slot:0b}].Count byte 0.99 run data get block ~ ~ ~ Items[{Slot:0b}].Count
+data modify block ~ ~ ~ CookTime set value 0s

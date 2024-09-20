@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:compass",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.exp_compass\",\"italic\":\"false\"}'},CustomModelData:9102131,id:\"cam:exp_compass\",LodestoneTracked:0b,LodestonePos:{X:0,Y:0,Z:0},LodestoneDimension:\"minecraft:the_nether\",cam_compass:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

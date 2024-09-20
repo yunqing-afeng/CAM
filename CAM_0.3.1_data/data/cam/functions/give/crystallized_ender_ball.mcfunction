@@ -1,0 +1,1 @@
+give @s chorus_fruit{display:{Name:"{\"translate\":\"item.cam.crystallized_ender_ball\",\"italic\":\"false\"}"},CustomModelData:9102128,id:"cam:crystallized_ender_ball"}

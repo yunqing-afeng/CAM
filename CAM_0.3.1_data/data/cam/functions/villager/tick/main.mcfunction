@@ -1,0 +1,2 @@
+execute as @e[type=villager,tag=!tpp_level1,nbt={VillagerData:{level:1}}] run function villager:level1/check
+execute as @e[type=villager,tag=!tpp_level2,nbt={VillagerData:{level:2}}] run function villager:level2/check

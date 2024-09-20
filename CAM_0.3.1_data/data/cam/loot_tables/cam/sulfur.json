@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charcoal",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:sulfur\",display:{Name:'[{\"translate\":\"item.cam.sulfur\",\"italic\":false}]'},CustomModelData:9102030}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

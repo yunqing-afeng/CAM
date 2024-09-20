@@ -1,0 +1,6 @@
+#无序合成模块
+execute store result score @s CNC_SLout if data block ~ ~ ~ Items[{id:"minecraft:wheat_seeds",tag:{id:"cam:rice"}}]
+execute store result score @s CNC_SLout2 if data block ~ ~ ~ Items[{id:"minecraft:yellow_dye",tag:{saccharomyce:1b}}]
+#主命令
+execute if block ~ ~ ~ minecraft:barrel{Items:[{id:"minecraft:glass_bottle"}]} if entity @s[scores={CNC_table_count=4,CNC_SLout=2,CNC_SLout2=1}] run item replace block ~ ~ ~ container.16 with potion{display:{Name:"[{\"translate\":\"item.cam.ricewine_rough\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},CustomPotionColor:11520975,id:"cam:ricewine_rough",CAM_winesped:5,CAM_wine:1b,CAM_alcohol:0,HideFlags:32,CAM_intensity:3b,CAM_winetype:1,CAM_winelimit:250,CAM_if_rough:1b,Output:1b}
+execute if block ~ ~ ~ minecraft:barrel{Items:[{id:"minecraft:glass_bottle"}]} if entity @s[scores={CNC_table_count=5,CNC_SLout=2,CNC_SLout2=2}] run item replace block ~ ~ ~ container.16 with potion{display:{Name:"[{\"translate\":\"item.cam.ricewine_rough\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},CustomPotionColor:10735059,id:"cam:ricewine_rough",CAM_winesped:10,CAM_wine:1b,CAM_alcohol:0,HideFlags:32,CAM_intensity:2b,CAM_winetype:1,CAM_winelimit:250,CAM_if_rough:1b,Output:1b}

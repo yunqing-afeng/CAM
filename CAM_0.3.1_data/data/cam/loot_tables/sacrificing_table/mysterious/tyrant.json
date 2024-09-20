@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:tyrant\",lvl:1}],CAM_spe:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

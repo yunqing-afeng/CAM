@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#uin:tech/tameable",
+        "#cam:pig_like",
+        "minecraft:chicken",
+        "minecraft:cow",
+        "minecraft:fox",
+        "minecraft:mooshroom",
+        "minecraft:ocelot",
+        "minecraft:panda",
+        "minecraft:parrot",
+        "minecraft:polar_bear",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:squid",
+        "minecraft:turtle",
+        {"required": false,"id": "minecraft:camel"}
+    ]
+}

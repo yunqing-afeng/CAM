@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:"{\"translate\":\"item.cam.echo_prism\",\"italic\":\"false\"}"},CustomModelData:9102118,id:"cam:echo_prism",CAM_echo_prism:1b}

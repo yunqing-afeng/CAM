@@ -1,0 +1,5 @@
+#鱼叉系列
+execute as @s[scores={harpoon_hit=1..},predicate=cam:misc/harpoon/1] at @s anchored eyes positioned ^ ^ ^2.5 run effect give @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1,type= #minecraft:water_mobs,type=!#uin:custom/graveborn] minecraft:instant_damage 1 0
+execute as @s[scores={harpoon_hit=1..},predicate=cam:misc/harpoon/2] at @s anchored eyes positioned ^ ^ ^2.5 run effect give @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1,type= #minecraft:water_mobs,type=!#uin:custom/graveborn] minecraft:instant_damage 1 1
+execute as @s[scores={harpoon_hit=1..},predicate=cam:misc/harpoon/1] at @s anchored eyes positioned ^ ^ ^2.5 run effect give @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1,type= #minecraft:water_mobs,type=#uin:custom/graveborn] minecraft:instant_health 1 0
+execute as @s[scores={harpoon_hit=1..},predicate=cam:misc/harpoon/2] at @s anchored eyes positioned ^ ^ ^2.5 run effect give @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1,type= #minecraft:water_mobs,type=#uin:custom/graveborn] minecraft:instant_health 1 1

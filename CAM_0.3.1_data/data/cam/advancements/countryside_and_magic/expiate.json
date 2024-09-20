@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "advancements.cam.expiate.title"
+    },
+    "description": {
+      "translate": "advancements.cam.expiate.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cam:countryside_and_magic/tyrant",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

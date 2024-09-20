@@ -1,0 +1,7 @@
+{
+	"parent": "display:buttons",
+	"textures": {
+		"layer0": "display:item/button_22"
+	},
+	"gui_light": "front"
+}

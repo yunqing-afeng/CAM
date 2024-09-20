@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.woolball\",\"italic\":\"false\"}'},CustomModelData:9102109,id:\"cam:woolball\",CAM_woolball:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

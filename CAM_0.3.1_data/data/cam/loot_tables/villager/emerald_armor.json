@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 1
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 9
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 2
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 15,
+                "max": 35
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 3
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 22,
+                "max": 64
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 4
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "CAM_trade_item": 5
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

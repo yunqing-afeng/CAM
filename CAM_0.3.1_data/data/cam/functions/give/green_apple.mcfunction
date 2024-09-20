@@ -1,0 +1,1 @@
+give @s cookie{CustomModelData:9102091,id:"cam:green_apple",CAM_green_apple:1b,display:{Name:"[{\"translate\":\"item.cam.green_apple\",\"color\":\"white\",\"italic\":false}]"}}

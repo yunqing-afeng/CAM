@@ -1,0 +1,3 @@
+execute if block ~ ~-1 ~ barrel{Items:[{Slot:13b}]} unless block ~ ~-1 ~ barrel{Items:[{Slot:13b,tag:{CAM_dis_bg:1b}}]} run data modify entity @s Item.id set from block ~ ~-1 ~ Items[{Slot:13b}].id
+execute if block ~ ~-1 ~ barrel{Items:[{Slot:13b}]} unless block ~ ~-1 ~ barrel{Items:[{Slot:13b,tag:{CAM_dis_bg:1b}}]} run data modify entity @s Item.tag set from block ~ ~-1 ~ Items[{Slot:13b}].tag
+execute if block ~ ~-1 ~ barrel{Items:[{Slot:13b,tag:{CAM_dis_bg:1b}}]} run data modify entity @s Item set value {Count:1b,id:"minecraft:stone"}

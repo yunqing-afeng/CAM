@@ -1,0 +1,53 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:grass",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:weed\",display:{Name:'[{\"translate\":\"item.cam.weed\",\"italic\": false}]'},CustomModelData:9102008,CAM_weed_type:1}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:grass",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:weed\",display:{Name:'[{\"translate\":\"item.cam.weed\",\"italic\": false}]'},CustomModelData:9102062,CAM_weed_type:2}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:grass",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:weed\",display:{Name:'[{\"translate\":\"item.cam.weed\",\"italic\": false}]'},CustomModelData:9102063,CAM_weed_type:3}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:grass",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:weed\",display:{Name:'[{\"translate\":\"item.cam.weed\",\"italic\": false}]'},CustomModelData:9102064,CAM_weed_type:4}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

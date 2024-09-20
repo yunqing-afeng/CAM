@@ -1,0 +1,1 @@
+give @s bread{CustomModelData:9101002,display:{Name:"[{\"translate\":\"item.cam.anniversary_croissant\",\"italic\":\"false\",\"color\":\"light_purple\"}]",Lore:["{\"translate\":\"text.cam.anniversary_croissant\",\"color\":\"gray\",\"italic\":\"false\"}"]},id:"cam:anniversary_croissant"}

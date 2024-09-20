@@ -1,0 +1,1 @@
+execute as @e[scores={CAM_dt_deathtime=1},sort=nearest,limit=1,tag=CAM_dtracer] at @s positioned ~ ~-1 ~ if score #particle CAM_module matches 1 run particle minecraft:item minecraft:glass ~ ~ ~ .5 1 .5 1 100

@@ -1,0 +1,2 @@
+advancement revoke @s only cam:countryside_and_magic/sub_axe
+execute as @e[type=villager,tag=CAM_level5,nbt={VillagerData:{profession:"minecraft:farmer",level:5}},sort= nearest,limit=1] run function cam:villager/farmer/woodman/excuteback

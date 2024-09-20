@@ -1,0 +1,1 @@
+scoreboard objectives add CAM_craftsman dummy

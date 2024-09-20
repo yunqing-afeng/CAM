@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "weight": 999
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/exquisite_stick",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#others"
+                                },
+                                "score": "CAM_module"
+                            },
+                            "range": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

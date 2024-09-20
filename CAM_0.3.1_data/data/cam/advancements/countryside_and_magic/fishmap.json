@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "title": {
+            "translate": "advancements.cam.fishmap.title"
+        },
+        "description": {
+            "translate": "advancements.cam.fishmap.description"
+        },
+        "frame": "task"
+    },
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "default": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{map:1b}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{   "parent":"item/handheld",
+    "textures": {
+        "layer0": "weapon:item/celebration_harpoon"
+    },
+    "overrides":[
+        
+      ]
+}

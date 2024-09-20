@@ -1,0 +1,1 @@
+execute as @e[type= minecraft:item,nbt={Item:{id:"minecraft:carved_pumpkin",tag:{clear:1b}}}] run function cam:village/scarezombie/sub_clear

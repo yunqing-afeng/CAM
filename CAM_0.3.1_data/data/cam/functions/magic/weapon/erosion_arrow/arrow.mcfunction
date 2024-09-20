@@ -1,0 +1,59 @@
+execute if block ~ ~1 ~ #cam:erosion_reduction run setblock ~ ~1 ~ netherrack
+execute if block ~ ~-1 ~ #cam:erosion_reduction run setblock ~ ~-1 ~ netherrack
+execute if block ~ ~ ~ #cam:erosion_reduction run setblock ~ ~ ~ netherrack
+execute if block ~1 ~1 ~ #cam:erosion_reduction run setblock ~1 ~1 ~ netherrack
+execute if block ~1 ~-1 ~ #cam:erosion_reduction run setblock ~1 ~-1 ~ netherrack
+execute if block ~1 ~ ~ #cam:erosion_reduction run setblock ~1 ~ ~ netherrack
+execute if block ~ ~1 ~1 #cam:erosion_reduction run setblock ~ ~1 ~1 netherrack
+execute if block ~ ~-1 ~1 #cam:erosion_reduction run setblock ~ ~-1 ~1 netherrack
+execute if block ~ ~ ~1 #cam:erosion_reduction run setblock ~ ~ ~1 netherrack
+execute if block ~-1 ~1 ~ #cam:erosion_reduction run setblock ~-1 ~1 ~ netherrack
+execute if block ~-1 ~-1 ~ #cam:erosion_reduction run setblock ~-1 ~-1 ~ netherrack
+execute if block ~-1 ~ ~ #cam:erosion_reduction run setblock ~-1 ~ ~ netherrack
+execute if block ~ ~1 ~-1 #cam:erosion_reduction run setblock ~ ~1 ~-1 netherrack
+execute if block ~ ~-1 ~-1 #cam:erosion_reduction run setblock ~ ~-1 ~-1 netherrack
+execute if block ~ ~ ~-1 #cam:erosion_reduction run setblock ~ ~ ~-1 netherrack
+execute if block ~1 ~1 ~1 #cam:erosion_reduction run setblock ~1 ~1 ~1 netherrack
+execute if block ~1 ~-1 ~1 #cam:erosion_reduction run setblock ~1 ~-1 ~1 netherrack
+execute if block ~1 ~ ~1 #cam:erosion_reduction run setblock ~1 ~ ~1 netherrack
+execute if block ~1 ~1 ~-1 #cam:erosion_reduction run setblock ~1 ~1 ~-1 netherrack
+execute if block ~1 ~-1 ~-1 #cam:erosion_reduction run setblock ~1 ~-1 ~-1 netherrack
+execute if block ~1 ~ ~-1 #cam:erosion_reduction run setblock ~1 ~ ~-1 netherrack
+execute if block ~-1 ~1 ~1 #cam:erosion_reduction run setblock ~-1 ~1 ~1 netherrack
+execute if block ~-1 ~-1 ~1 #cam:erosion_reduction run setblock ~-1 ~-1 ~1 netherrack
+execute if block ~-1 ~ ~1 #cam:erosion_reduction run setblock ~-1 ~ ~1 netherrack
+execute if block ~-1 ~1 ~-1 #cam:erosion_reduction run setblock ~-1 ~1 ~-1 netherrack
+execute if block ~-1 ~-1 ~-1 #cam:erosion_reduction run setblock ~-1 ~-1 ~-1 netherrack
+execute if block ~-1 ~ ~-1 #cam:erosion_reduction run setblock ~-1 ~ ~-1 netherrack
+
+execute unless block ~ ~1 ~ #cam:erosion_unbreakable run setblock ~ ~1 ~ air
+execute unless block ~ ~-1 ~ #cam:erosion_unbreakable run setblock ~ ~-1 ~ air
+execute unless block ~ ~ ~ #cam:erosion_unbreakable run setblock ~ ~ ~ air
+execute unless block ~1 ~1 ~ #cam:erosion_unbreakable run setblock ~1 ~1 ~ air
+execute unless block ~1 ~-1 ~ #cam:erosion_unbreakable run setblock ~1 ~-1 ~ air
+execute unless block ~1 ~ ~ #cam:erosion_unbreakable run setblock ~1 ~ ~ air
+execute unless block ~ ~1 ~1 #cam:erosion_unbreakable run setblock ~ ~1 ~1 air
+execute unless block ~ ~-1 ~1 #cam:erosion_unbreakable run setblock ~ ~-1 ~1 air
+execute unless block ~ ~ ~1 #cam:erosion_unbreakable run setblock ~ ~ ~1 air
+execute unless block ~-1 ~1 ~ #cam:erosion_unbreakable run setblock ~-1 ~1 ~ air
+execute unless block ~-1 ~-1 ~ #cam:erosion_unbreakable run setblock ~-1 ~-1 ~ air
+execute unless block ~-1 ~ ~ #cam:erosion_unbreakable run setblock ~-1 ~ ~ air
+execute unless block ~ ~1 ~-1 #cam:erosion_unbreakable run setblock ~ ~1 ~-1 air
+execute unless block ~ ~-1 ~-1 #cam:erosion_unbreakable run setblock ~ ~-1 ~-1 air
+execute unless block ~ ~ ~-1 #cam:erosion_unbreakable run setblock ~ ~ ~-1 air
+execute unless block ~1 ~1 ~1 #cam:erosion_unbreakable run setblock ~1 ~1 ~1 air
+execute unless block ~1 ~-1 ~1 #cam:erosion_unbreakable run setblock ~1 ~-1 ~1 air
+execute unless block ~1 ~ ~1 #cam:erosion_unbreakable run setblock ~1 ~ ~1 air
+execute unless block ~1 ~1 ~-1 #cam:erosion_unbreakable run setblock ~1 ~1 ~-1 air
+execute unless block ~1 ~-1 ~-1 #cam:erosion_unbreakable run setblock ~1 ~-1 ~-1 air
+execute unless block ~1 ~ ~-1 #cam:erosion_unbreakable run setblock ~1 ~ ~-1 air
+execute unless block ~-1 ~1 ~1 #cam:erosion_unbreakable run setblock ~-1 ~1 ~1 air
+execute unless block ~-1 ~-1 ~1 #cam:erosion_unbreakable run setblock ~-1 ~-1 ~1 air
+execute unless block ~-1 ~ ~1 #cam:erosion_unbreakable run setblock ~-1 ~ ~1 air
+execute unless block ~-1 ~1 ~-1 #cam:erosion_unbreakable run setblock ~-1 ~1 ~-1 air
+execute unless block ~-1 ~-1 ~-1 #cam:erosion_unbreakable run setblock ~-1 ~-1 ~-1 air
+execute unless block ~-1 ~ ~-1 #cam:erosion_unbreakable run setblock ~-1 ~ ~-1 air
+
+playsound minecraft:block.lava.extinguish voice @a ~ ~ ~ 0.5
+execute if score #particle CAM_module matches 1 run particle minecraft:large_smoke ~ ~ ~ 1 1 1 0 10
+kill @s

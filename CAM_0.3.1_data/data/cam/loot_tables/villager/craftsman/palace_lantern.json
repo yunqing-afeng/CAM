@@ -1,0 +1,239 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:1,CustomModelData:2224001,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.hollow\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:2,CustomModelData:2224005,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.creeper\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:3,CustomModelData:2224009,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.hollow\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:4,CustomModelData:2224013,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.creeper\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:5,CustomModelData:2224017,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.spring\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:6,CustomModelData:2224021,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.spring\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:7,CustomModelData:2224025,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.happiness\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:8,CustomModelData:2224029,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.happiness\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:9,CustomModelData:2224033,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.happiness_ud\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:10,CustomModelData:2224037,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.happiness_ud\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:11,CustomModelData:2224041,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.mojang\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:12,CustomModelData:2224045,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.mojang\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:13,CustomModelData:2224049,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.knight\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:14,CustomModelData:2224053,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.knight\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:15,CustomModelData:2224057,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.blue\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.knight\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:16,CustomModelData:2224061,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.earth\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:17,CustomModelData:2224065,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.earth\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:18,CustomModelData:2224069,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.dragon\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:19,CustomModelData:2224073,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.dragon\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:20,CustomModelData:2224077,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.blackhole\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:21,CustomModelData:2224081,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.blackhole\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:22,CustomModelData:2224085,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.white\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.pure\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "lantern",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CAM_palace_lantern:1b,CAM_lantern_type:23,CustomModelData:2224089,id:\"cam:palace_lantern\",display:{Name:'[{\"translate\":\"item.cam.palace_lantern\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.color\"},{\"translate\":\"lore.cam.red\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"lore.cam.general\",\"with\":[{\"translate\":\"lore.cam.pattern\"},{\"translate\":\"lore.cam.pure\"}],\"color\":\"gray\",\"italic\":\"false\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

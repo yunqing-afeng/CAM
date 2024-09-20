@@ -1,0 +1,11 @@
+{
+	"parent": "cam:countryside_and_magic/root",
+	"criteria": {
+		"hammer": {
+			"trigger": "minecraft:villager_trade"
+		}
+	},
+	"rewards": {
+		"function": "cam:advancements/test"
+	}
+}

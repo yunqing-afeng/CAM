@@ -1,0 +1,1 @@
+give @s item_frame{id:"cam:chinese_knot",display:{Name:"[{\"translate\":\"item.cam.chinese_knot\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},CAM_chinese_knot:1b,CustomModelData:9102072}

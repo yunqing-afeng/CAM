@@ -1,0 +1,1 @@
+give @s bamboo{display:{Name:"{\"translate\":\"item.cam.bamboo_sapling\",\"italic\":\"false\"}"},CustomModelData:9102077,CAM_output:1b,id:"cam:bamboo_sapling"}

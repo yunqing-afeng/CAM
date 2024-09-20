@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:barrel{Items:[{tag:{id:"fisma:end_ball"}},{id:"minecraft:amethyst_shard"}]} if entity @s[scores={CNC_table_count=2}] run item replace block ~ ~ ~ container.16 with chorus_fruit{display:{Name:"{\"translate\":\"item.cam.crystallized_ender_ball\",\"italic\":\"false\"}"},CustomModelData:9102128,id:"cam:crystallized_ender_ball",Output:1b}

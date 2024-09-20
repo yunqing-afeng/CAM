@@ -1,0 +1,1 @@
+give @s charcoal{display:{Name:"{\"translate\":\"item.cam.extincted_blaze_rod\",\"italic\":\"false\"}"},CustomModelData:9102093,id:"cam:extincted_blaze_rod"}

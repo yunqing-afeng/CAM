@@ -1,0 +1,38 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "offhand": {
+                                "items": [
+                                    "minecraft:crossbow"
+                                ],
+                                "nbt": "{CAM_echo_emitter:1b,CAM_loaded:1b}"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:crossbow"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

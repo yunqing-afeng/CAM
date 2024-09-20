@@ -1,0 +1,20 @@
+{
+    "values":[
+        "cam:machine/crafting_table/recipes/dream_catcher/clover",
+        "cam:machine/crafting_table/recipes/dream_catcher/completeness",
+        "cam:machine/crafting_table/recipes/dream_catcher/creation",
+        "cam:machine/crafting_table/recipes/dream_catcher/dirt",
+        "cam:machine/crafting_table/recipes/dream_catcher/empty",
+        "cam:machine/crafting_table/recipes/dream_catcher/fire",
+        "cam:machine/crafting_table/recipes/dream_catcher/flower",
+        "cam:machine/crafting_table/recipes/dream_catcher/heart",
+        "cam:machine/crafting_table/recipes/dream_catcher/ice",
+        "cam:machine/crafting_table/recipes/dream_catcher/mist",
+        "cam:machine/crafting_table/recipes/dream_catcher/nihility",
+        "cam:machine/crafting_table/recipes/dream_catcher/star",
+        "cam:machine/crafting_table/recipes/dream_catcher/sun",
+        "cam:machine/crafting_table/recipes/dream_catcher/tree",
+        "cam:machine/crafting_table/recipes/dream_catcher/water",
+        "cam:machine/crafting_table/recipes/dream_catcher/wind"
+    ]
+}

@@ -1,0 +1,3 @@
+execute as @e[type=item_frame,tag=!CAM_frame_test,sort=nearest,limit=1] run tag @s add CAM_chinese_knot
+execute as @e[type=item_frame,tag=!CAM_frame_test,tag=CAM_chinese_knot,sort=nearest,limit=1] run data modify entity @s {} merge value {Item:{id:"minecraft:item_frame",Count:1b,tag:{id:"cam:chinese_knot",display:{Name:"[{\"translate\":\"item.cam.chinese_knot\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},CAM_chinese_knot:1b,CustomModelData:9102072}},CustomNameVisible:0b,Invisible:1b}
+execute as @e[type=item_frame,tag=!CAM_frame_test,tag=CAM_chinese_knot,sort=nearest,limit=1] if data entity @s {Facing:0b} run data modify entity @s Item.tag.CustomModelData set value 9102073

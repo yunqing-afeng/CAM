@@ -1,0 +1,2 @@
+execute as @a[scores={CAM_customdamage=1..},gamemode= !creative] at @s run function cam:magic/weapon/customdamage/function
+execute as @a[scores={CAM_customdamage=1..},gamemode= creative] run scoreboard players set @s CAM_customdamage 0

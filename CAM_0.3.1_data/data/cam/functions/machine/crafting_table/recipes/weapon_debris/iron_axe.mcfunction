@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:barrel{Items:[{tag:{id:"cam:weapon_debris_iron_axe"}}]} if entity @s[scores={CNC_table_count=1}] run item replace block ~ ~ ~ container.16 with minecraft:iron_nugget{Output:1b}

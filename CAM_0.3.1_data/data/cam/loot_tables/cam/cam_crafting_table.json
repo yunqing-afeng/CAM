@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_crafting_table:1b,display:{Name:'[{\"translate\":\"item.cnc.crafting_table\",\"italic\":false}]'},CustomModelData:9102026,id:\"cam:crafting_table\"}"
+            }
+          ],
+          "name": "minecraft:crafting_table"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+give @s minecraft:nautilus_shell{CustomModelData:9102092,id:"cam:golden_nautilus_shell",display:{Name:"[{\"translate\":\"item.cam.golden_nautilus_shell\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"}}

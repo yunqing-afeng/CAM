@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.cam.ghost.title"
+    },
+    "description": {
+      "translate": "advancements.cam.ghost.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cam:countryside_and_magic/village_tales",
+  "criteria": {
+    "ghost": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"CAM_ghost\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 65
+  }
+}

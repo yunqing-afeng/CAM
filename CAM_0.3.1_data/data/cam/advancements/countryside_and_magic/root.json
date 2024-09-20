@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:green_dye",
+            "nbt": "{CustomModelData:9102008}"
+        },
+        "title": {
+            "translate": "advancements.cam.root.title"
+        },
+        "description": {
+            "translate": "advancements.cam.root.description"
+        },
+        "frame": "goal",
+        "background": "cm:textures/background.png"
+    },
+    "criteria": {
+        "default": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"cam:weed\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

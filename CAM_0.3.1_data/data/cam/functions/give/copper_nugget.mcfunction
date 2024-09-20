@@ -1,0 +1,1 @@
+give @s minecraft:firework_star{CustomModelData:9102123,id:"cam:copper_nugget",display:{Name:"[{\"translate\":\"item.cam.copper_nugget\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"}}

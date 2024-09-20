@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:sea_pickle"
+                },
+                {
+                    "type": "tag",
+                    "name": "minecraft:candles",
+                    "expand": true
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:honeycomb"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "cam:cam/bamboo_sapling"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CAM_wander_p:2,CAM_wander_c:5,CAM_wander:1b}"
+                }
+            ]
+        }
+    ]
+}

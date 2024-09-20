@@ -1,0 +1,1 @@
+give @s crossbow{id:"cam:semibow",CAM_semi_crossbow:1b,CAM_semibow_candidates:[],CAM_semibow_capacity:3,CustomModelData:9102106,display:{Name:'{"translate":"item.cam.semibow","italic": false}'}}

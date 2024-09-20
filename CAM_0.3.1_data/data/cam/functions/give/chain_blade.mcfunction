@@ -1,0 +1,1 @@
+give @s minecraft:iron_sword{id:"cam:chain_blade",CustomModelData:9102031,CAM_chainblade:0b,CustomDamage:1b,display:{Name:"[{\"translate\":\"item.cam.chain_blade\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},dartsdamage:2}

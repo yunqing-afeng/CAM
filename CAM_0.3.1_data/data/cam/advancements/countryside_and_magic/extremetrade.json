@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": {
+            "translate": "advancements.cam.extremetrade.title"
+        },
+        "description": {
+            "translate": "advancements.cam.extremetrade.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "cam:countryside_and_magic/greattrade",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 200
+    }
+}

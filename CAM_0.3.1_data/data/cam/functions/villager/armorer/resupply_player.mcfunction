@@ -1,0 +1,2 @@
+advancement revoke @s only cam:countryside_and_magic/armor
+execute positioned ^ ^ ^3 as @e[type=minecraft:villager,nbt={VillagerData:{profession:"minecraft:armorer"}},sort=nearest,limit=1] at @s run function cam:villager/armorer/resupply_villager

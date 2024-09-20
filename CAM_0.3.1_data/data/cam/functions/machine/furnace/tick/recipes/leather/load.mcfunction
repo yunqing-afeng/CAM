@@ -1,0 +1,3 @@
+scoreboard objectives add CAM_leather_tick dummy
+scoreboard objectives add CAM_leather_count dummy
+scoreboard objectives add CAM_leather_time dummy

@@ -1,0 +1,1 @@
+give @s yellow_dye{display:{Name:"[{\"translate\":\"item.cam.yeast\",\"italic\":\"false\"}]"},saccharomyce:1b,CustomModelData:9102016,id:"cam:yeast"}

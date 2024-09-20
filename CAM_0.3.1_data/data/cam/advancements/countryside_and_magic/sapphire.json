@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald",
+      "nbt": "{CustomModelData:9102012}"
+    },
+    "title": {
+      "translate": "advancements.cam.sapphire.title"
+    },
+    "description": {
+      "translate": "advancements.cam.sapphire.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{id:\"cam:sapphire\"}"
+          }
+        ]
+      }
+    }
+  }
+}

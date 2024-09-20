@@ -1,0 +1,2 @@
+execute as @e[type=villager,predicate=cam:villager/trigger/fisherman] at @s run function cam:villager/fisherman/craftsman/tick_sub
+execute as @e[type=villager,tag=CAM_craftlevel1,predicate=!cam:villager/trigger/fisherman] run function cam:villager/fisherman/craftsman/off

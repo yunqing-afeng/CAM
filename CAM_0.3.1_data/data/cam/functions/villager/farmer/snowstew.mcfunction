@@ -1,0 +1,1 @@
+give @s minecraft:mushroom_stew{display:{Name:"[{\"translate\":\"item.cam.snow_stew\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},CustomModelData:9102014}

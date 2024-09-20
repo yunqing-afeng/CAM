@@ -1,0 +1,26 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "inverted",
+                "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:item_frame",
+                        "nbt": "{Tags:[\"CAM_chinese_knot\"]}"
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{tag:{id:\"cam:chinese_knot\"}}}"
+                }
+            }
+        ]
+    }
+}

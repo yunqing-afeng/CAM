@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "weapon:item/illager_king_axe_extend"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 32.25, -3.75],
+			"scale": [3.4, 3.4, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 26.5, -4],
+			"scale": [3.4, 3.4, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [-77, -90, 25],
+			"translation": [1.13, 4.5, -5.37],
+			"scale": [3.4, 3.4, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-77, 90, -25],
+			"translation": [1.13, 4.5, -5.4],
+			"scale": [3.4, 3.4, 0.68]
+		}
+	}
+}

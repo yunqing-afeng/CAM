@@ -1,0 +1,3 @@
+scoreboard objectives add CAM_backbiteD minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add CAM_back_lock dummy
+scoreboard objectives add CAM_back_amount dummy

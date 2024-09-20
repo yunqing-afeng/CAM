@@ -1,0 +1,81 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "nbt": "{Items:[{id:\"minecraft:firework_star\",Slot:0b,tag:{id:\"cam:rotten_leather\"}}]}"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "nbt": "{Items:[{Slot:2b,id:\"minecraft:rabbit_hide\"}]}"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "inverted",
+                    "term": {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "nbt": "{Items:[{id:\"minecraft:firework_star\",Slot:0b,tag:{id:\"cam:rotten_leather\"}}]}"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:2b}]}"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:2b,id:\"minecraft:rabbit_hide\",Count:64b}]}"
+          }
+        }
+      }
+    ]
+  }
+}

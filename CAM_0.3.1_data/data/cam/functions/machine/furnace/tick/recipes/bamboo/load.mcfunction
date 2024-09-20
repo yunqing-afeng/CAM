@@ -1,0 +1,2 @@
+scoreboard objectives add CAM_bamboo_tick dummy
+scoreboard objectives add CAM_bamboo_count dummy

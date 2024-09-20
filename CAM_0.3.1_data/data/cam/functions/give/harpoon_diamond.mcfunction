@@ -1,0 +1,1 @@
+give @s diamond_sword{id:"cam:diamond_harpoon",water:1b,display:{Name:"[{\"translate\":\"item.cam.diamond_harpoon\",\"italic\":\"false\"}]"},CustomModelData:9102046}

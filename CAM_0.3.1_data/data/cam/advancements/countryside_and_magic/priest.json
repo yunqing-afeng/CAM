@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blast_furnace",
+            "nbt": "{CustomModelData:9102065}"
+        },
+        "title": {
+            "translate": "advancements.cam.priest.title"
+        },
+        "description": {
+            "translate": "advancements.cam.priest.descrption"
+        }
+    },
+    "parent": "cam:countryside_and_magic/sapphire",
+    "criteria": {
+        "sacrficing_table": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "nbt": "{CAM_sacrificing_table:1b,display:{Name:'[{\"translate\":\"item.cam.sacrificing_table\",\"italic\":false}]'},CustomModelData:9102065,id:\"cam:sacrificing_table\"}"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

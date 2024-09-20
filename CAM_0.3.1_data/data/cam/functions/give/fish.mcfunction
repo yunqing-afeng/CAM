@@ -1,0 +1,1 @@
+give @s cod{CustomModelData:9102040,display:{Name:"[{\"translate\":\"item.cam.fish\",\"color\":\"white\",\"italic\":\"false\"}]"},id:"cam:fish"}

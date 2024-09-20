@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:villager,predicate=cam:villager/toolsmith] if predicate cam:villager/toolsmith run function cam:villager/toolsmith/offer_deal

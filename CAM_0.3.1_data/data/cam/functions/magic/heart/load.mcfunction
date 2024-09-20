@@ -1,0 +1,2 @@
+scoreboard objectives add CAM_damage minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add CAM_hh_use used:carrot_on_a_stick

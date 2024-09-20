@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/copper_pickaxe/exp"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.6,
+                                "min": 0.4
+                            }
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/copper_pickaxe/rag"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.4,
+                                "min": 0.2
+                            }
+                        }
+                    ],
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

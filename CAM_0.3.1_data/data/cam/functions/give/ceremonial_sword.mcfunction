@@ -1,0 +1,1 @@
+give @s iron_sword{display:{Name:"{\"translate\":\"item.cam.ceremonial_sword\",\"italic\":\"false\"}"},CustomModelData:9102078,id:"cam:ceremonial_sword"}

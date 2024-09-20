@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:barrel{Items:[{tag:{id:"cam:sculk_dust"},Slot:2b},{tag:{id:"cam:sculk_dust"},Slot:10b},{tag:{id:"cam:sculk_dust"},Slot:12b},{tag:{id:"cam:sculk_dust"},Slot:20b},{id:"minecraft:amethyst_shard",Slot:11b}]} if entity @s[scores={CNC_table_count=5}] run item replace block ~ ~ ~ container.16 with echo_shard{Output:1b}

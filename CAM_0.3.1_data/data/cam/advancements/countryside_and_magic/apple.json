@@ -1,0 +1,19 @@
+{
+		"parent": "minecraft:adventure/root",
+		"criteria": {
+				"put_furnace": {
+						"trigger": "minecraft:consume_item",
+						"conditions": {
+								"item": {
+										"items": [
+												"minecraft:apple"
+										],
+										"nbt": "{honey_apple:1b}"
+								}
+						}
+				}
+		},
+		"rewards": {
+				"function": "cam:advancements/honey_apple"
+		}
+}

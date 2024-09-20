@@ -1,0 +1,1 @@
+execute as @e[type=skeleton,tag=!CAM_sktrigger] run function cam:monster/skeleton/function

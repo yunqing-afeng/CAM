@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:netherite_hammer\",display:{Name:'[{\"translate\":\"item.cam.netherite_hammer\",\"italic\":false}]'},CustomModelData:9102059}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

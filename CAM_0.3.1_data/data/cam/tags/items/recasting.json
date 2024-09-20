@@ -1,0 +1,13 @@
+{
+    "values": [
+        "#cam:wooden_items",
+        "#cam:stone_items",
+        "#cam:iron_items",
+        "#cam:golden_items",
+        "#cam:diamond_items",
+        "#cam:netherite_items",
+        "#cam:leather_items",
+        "#cam:bows",
+        "minecraft:trident"
+    ]
+}

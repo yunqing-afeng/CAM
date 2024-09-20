@@ -1,0 +1,2 @@
+effect give @e[distance=..2.5,nbt={HurtTime:10s},sort=nearest,limit=1] minecraft:poison 10 2
+clear @a[scores={CAM_damage=1..},nbt={Inventory:[{tag:{poison:1b},Slot:-106b}]},gamemode=!creative] firework_star{poison:1b} 1

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_star",
+            "nbt": "{CustomModelData:9101001}"
+        },
+        "title": {
+            "translate": "advancements.camani.root.title"
+        },
+        "description": {
+            "translate": "advancements.camani.root.description"
+        },
+        "frame": "challenge",
+        "background": "3_year:textures/block/cake_top.png"
+    },
+    "criteria": {
+        "harpoon": {
+            "trigger": "minecraft:impossible"
+        },
+        "fireworks": {
+            "trigger": "minecraft:impossible"
+        },
+        "heart": {
+            "trigger": "minecraft:impossible"
+        },
+        "pumpkin": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

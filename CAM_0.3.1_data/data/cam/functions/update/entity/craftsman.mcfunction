@@ -1,0 +1,1 @@
+execute as @e[type=villager,nbt={VillagerData:{profession:"minecraft:fisherman"},Tags:["CAM_craftsman"]}] unless score @s CAM_version matches 46.. run function cam:update/entity/craftsman/trade

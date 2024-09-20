@@ -1,0 +1,1 @@
+give @s minecraft:wooden_sword{CAM_Enchantments:[{id:"cam:phylactery",lvl:1}],display:{Lore:["{\"translate\":\"enchantment.cam.general\",\"with\":[{\"translate\":\"enchant.cam.phylactery\"}],\"color\":\"gray\",\"italic\":\"false\"}"]},CustomDamage:1b}

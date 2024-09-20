@@ -1,0 +1,1 @@
+execute as @a[tag=CAM_potato] run function cam:cm/poisonous_potato/trigger_

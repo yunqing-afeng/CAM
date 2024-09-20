@@ -1,0 +1,2 @@
+execute store result score @s CNC_SLout if data block ~ ~ ~ Items[{tag:{id:"cam:weed"}}]
+execute if block ~ ~ ~ minecraft:barrel{Items:[{id:"minecraft:bowl"}]} if entity @s[scores={CNC_table_count=7,CNC_SLout=6}] run item replace block ~ ~ ~ container.16 with minecraft:mushroom_stew{display:{Name:"[{\"translate\":\"item.cam.weedstew\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},CustomModelData:9102009,Output:1b} 1

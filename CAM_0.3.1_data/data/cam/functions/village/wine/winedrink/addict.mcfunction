@@ -1,0 +1,1 @@
+execute if score @s CAM_addict < @s CAM_badrink run scoreboard players operation @s CAM_addict = @s CAM_badrink

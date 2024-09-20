@@ -1,0 +1,2 @@
+scoreboard objectives add CAM_dt_confirm dummy
+scoreboard objectives add CAM_dt_deathtime dummy

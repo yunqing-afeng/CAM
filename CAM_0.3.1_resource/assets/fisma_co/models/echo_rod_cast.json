@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "fisma_co:item/echo_rod_cast"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mushroom_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.rice_dealt\",\"color\":\"white\",\"italic\":\"false\"}'},CustomModelData:9102057,id:\"cam:rice_dealt\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

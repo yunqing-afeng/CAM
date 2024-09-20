@@ -1,0 +1,4 @@
+{
+    "function": "set_nbt",
+    "tag": "{CustomModelData:9102098,AttributeModifiers:[{Operation:0,Amount:6,UUID:[I;197,236,166,4888],Slot:mainhand,AttributeName:\"generic.attack_damage\",Name:\"generic.attackDamage\"},{Operation:0,Amount:-3.5,UUID:[I;55761,164884,326,877],Slot:mainhand,AttributeName:\"generic.attack_speed\",Name:\"generic.attackSpeed\"}],CAM_axetype:1b,CAM_illaxe:1b,display:{Name:'[{\"translate\":\"item.cam.illager_axe\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'}}"
+}

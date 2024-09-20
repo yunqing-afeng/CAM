@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_axe"
+    },
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102005},"model":"weapon:hammer"},
+        {"predicate":{"custom_model_data":9102143},"model":"cm:butcher_kinfe"}
+        
+    ]
+}

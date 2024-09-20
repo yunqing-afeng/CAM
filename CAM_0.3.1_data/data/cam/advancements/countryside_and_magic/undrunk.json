@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{CustomPotionColor:13521665}"
+        },
+        "title": {
+            "translate": "advancements.cam.undrunk.title"
+        },
+        "description": {
+            "translate": "advancements.cam.undrunk.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "cam:countryside_and_magic/first_drink",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 500
+    }
+}

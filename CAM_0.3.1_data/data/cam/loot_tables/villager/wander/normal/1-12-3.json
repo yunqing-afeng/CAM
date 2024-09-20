@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "tag",
+                    "name": "uin:general/dye",
+                    "expand": true
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bamboo"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CAM_wander_p:1,CAM_wander_c:12,CAM_wander:1b}"
+                },
+                {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+scoreboard objectives add CAM_catcher_put minecraft.used:minecraft.item_frame
+scoreboard objectives add CAM_catcher_type dummy
+scoreboard objectives add CAM_catcher_timer dummy
+
+scoreboard objectives add CAM_catcher_facing dummy
+scoreboard objectives add CAM_catcher_ro dummy
+scoreboard objectives add CAM_catcher_random dummy
+
+scoreboard objectives add CAM_catcher_functimer dummy
+scoreboard objectives add CAM_catcher_functype dummy
+scoreboard objectives add CAM_catcher_functimer_ dummy

@@ -1,0 +1,2 @@
+execute at @e[type= minecraft:item,predicate=cam:villager/guard] if block ~ ~ ~ minecraft:water run function cam:villager/axe/guard
+execute at @e[type= minecraft:item,predicate=cam:villager/guard] if block ~ ~ ~ #uin:tech/all[waterlogged=true] run function cam:villager/axe/guard

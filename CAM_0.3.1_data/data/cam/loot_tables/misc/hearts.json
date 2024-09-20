@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/health_heart"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/poison_heart",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

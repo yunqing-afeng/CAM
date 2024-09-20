@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{SelectedItem:{tag:{CAM_Enchantments:[{id:\"cam:shield\"}]}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Inventory:[{Slot:-106b,tag:{CAM_Enchantments:[{id:\"cam:shield\"}]}}]}"
+      }
+    }
+  ]
+}

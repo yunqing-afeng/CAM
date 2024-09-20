@@ -1,0 +1,17 @@
+execute if data entity @s Item{id:"minecraft:iron_leggings"} run scoreboard players set @s CAM_trade_item 1
+execute if data entity @s Item{id:"minecraft:iron_boots"} run scoreboard players set @s CAM_trade_item 1
+execute if data entity @s Item{id:"minecraft:iron_chestplate"} run scoreboard players set @s CAM_trade_item 1
+execute if data entity @s Item{id:"minecraft:iron_helmet"} run scoreboard players set @s CAM_trade_item 1
+execute if data entity @s Item{id:"minecraft:chainmail_leggings"} run scoreboard players set @s CAM_trade_item 2
+execute if data entity @s Item{id:"minecraft:chainmail_boots"} run scoreboard players set @s CAM_trade_item 2
+execute if data entity @s Item{id:"minecraft:chainmail_chestplate"} run scoreboard players set @s CAM_trade_item 2
+execute if data entity @s Item{id:"minecraft:chainmail_helmet"} run scoreboard players set @s CAM_trade_item 2
+execute if data entity @s Item{id:"minecraft:diamond_leggings"} run scoreboard players set @s CAM_trade_item 3
+execute if data entity @s Item{id:"minecraft:diamond_boots"} run scoreboard players set @s CAM_trade_item 3
+execute if data entity @s Item{id:"minecraft:diamond_chestplate"} run scoreboard players set @s CAM_trade_item 3
+execute if data entity @s Item{id:"minecraft:diamond_helmet"} run scoreboard players set @s CAM_trade_item 3
+execute if data entity @s Item{id:"minecraft:golden_leggings"} run scoreboard players set @s CAM_trade_item 4
+execute if data entity @s Item{id:"minecraft:golden_helmet"} run scoreboard players set @s CAM_trade_item 4
+execute if data entity @s Item{id:"minecraft:golden_chestplate"} run scoreboard players set @s CAM_trade_item 4
+execute if data entity @s Item{id:"minecraft:golden_boots"} run scoreboard players set @s CAM_trade_item 4
+execute if data entity @s Item{id:"minecraft:shield"} run scoreboard players set @s CAM_trade_item 5

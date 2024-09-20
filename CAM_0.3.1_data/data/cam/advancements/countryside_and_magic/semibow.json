@@ -1,0 +1,19 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "put_table": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "crossbow"
+                    ],
+                    "nbt": "{CAM_semi_crossbow:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cam:magic/weapon/semi_crossbow/trigger"
+    }
+}

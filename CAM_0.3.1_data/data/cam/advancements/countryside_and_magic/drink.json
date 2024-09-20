@@ -1,0 +1,16 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{CAM_wine:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cam:village/wine/winedrink/trans"
+  }
+}

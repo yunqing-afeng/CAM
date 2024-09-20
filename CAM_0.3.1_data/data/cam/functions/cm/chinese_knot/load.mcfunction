@@ -1,0 +1,1 @@
+scoreboard objectives add CAM_knot_put minecraft.used:minecraft.item_frame

@@ -1,0 +1,72 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "rewards": {
+    "function": "cam:machine/furnace/furnace"
+  },
+  "criteria": {
+    "put_furnace1": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:blast_furnace"
+          }
+        ]
+      }
+    },
+    "put_furnace2": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:furnace"
+          }
+        ]
+      }
+    },
+    "put_furnace3": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:smoker"
+          }
+        ]
+      }
+    },
+    "put_furnace4": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:campfire"
+          }
+        ]
+      }
+    },
+    "put_furnace5": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:soul_campfire"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "put_furnace1",
+      "put_furnace2",
+      "put_furnace3",
+      "put_furnace4",
+      "put_furnace5"
+    ]
+  ]
+}

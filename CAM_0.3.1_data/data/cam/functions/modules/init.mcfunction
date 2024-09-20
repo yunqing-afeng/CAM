@@ -1,0 +1,1 @@
+function cam:magic/echo_prism/init

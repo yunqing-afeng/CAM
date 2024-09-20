@@ -1,0 +1,1 @@
+give @s snowball{display:{Name:"{\"translate\":\"item.cam.nut\",\"italic\":\"false\"}"},CustomModelData:9102145,id:"cam:nut"}

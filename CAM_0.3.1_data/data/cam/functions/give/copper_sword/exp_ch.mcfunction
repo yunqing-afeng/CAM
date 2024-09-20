@@ -1,0 +1,1 @@
+give @s iron_sword{display:{Name:"{\"translate\":\"item.cam.copper_sword_exposed\",\"italic\":false}"},CustomModelData:9102085,id:"cam:copper_sword",CAM_cps_type:0,CAM_cps_oxi:1,CAM_Enchantments:[{id:"cam:breakable",lvl:1,hide:1b}]}

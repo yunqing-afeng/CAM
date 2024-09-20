@@ -1,0 +1,1 @@
+give @s wooden_sword{display:{Name:"{\"translate\":\"item.cam.bamboo_sword\",\"italic\":\"false\"}"},CustomModelData:9102019,id:"cam:bamboo_sword"}

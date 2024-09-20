@@ -1,0 +1,1 @@
+give @s apple{display:{Name:"{\"translate\":\"item.cam.honeyapple\",\"italic\":\"false\"}"},CustomModelData:9102028,CAM_output:1b,id:"cam:honey_apple",honey_apple:1b}

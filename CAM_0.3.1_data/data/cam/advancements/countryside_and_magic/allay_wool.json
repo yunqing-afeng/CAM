@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:snowball",
+      "nbt": "{CustomModelData:9102109}"
+    },
+    "title": {
+      "translate": "advancements.cam.woolball.title"
+    },
+    "description": {
+      "translate": "advancements.cam.woolball.description"
+    },
+    "frame": "task"
+  },
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "allay_deliver_item_to_player": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:allay"
+            }
+          }
+        ],
+        "item": {
+          "nbt": "{id:\"cam:woolball\"}"
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  }
+}

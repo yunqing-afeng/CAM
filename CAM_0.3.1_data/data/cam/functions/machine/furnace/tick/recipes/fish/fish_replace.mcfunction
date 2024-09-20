@@ -1,0 +1,3 @@
+data modify block ~ ~ ~ Items insert -1 value {Slot:2b,tag:{CustomModelData:9102041,display:{Name:"[{\"translate\":\"item.cam.fish_cooked\",\"color\":\"white\",\"italic\":\"false\"}]"},id:"cam:cooked_fish"},id:"minecraft:cooked_cod",Count:1b}
+execute store result block ~ ~ ~ Items[{Slot:0b}].Count short 0.99 run data get block ~ ~ ~ Items[{Slot:0b}].Count
+data modify block ~ ~ ~ CookTime set value 0s

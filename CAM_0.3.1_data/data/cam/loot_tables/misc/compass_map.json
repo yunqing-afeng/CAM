@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "cam:fortress",
+              "skip_existing_chunks": false,
+              "search_radius": 3000,
+              "decoration": "red_x",
+              "zoom": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{cam_compass:2b}"
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 19
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "cam:bastion_remnant",
+              "skip_existing_chunks": false,
+              "search_radius": 3000,
+              "decoration": "red_x",
+              "zoom": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{cam_compass:3b}"
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

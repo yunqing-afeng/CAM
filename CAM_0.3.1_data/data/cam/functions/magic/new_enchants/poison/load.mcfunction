@@ -1,0 +1,1 @@
+scoreboard objectives add CAM_poison minecraft.custom:damage_dealt

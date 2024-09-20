@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shield",
+      "nbt": "{CustomModelData:9102061}"
+    },
+    "title": {
+      "translate": "advancements.cam.shield_down.title"
+    },
+    "description": {
+      "translate": "advancements.cam.shield_down.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cam:countryside_and_magic/priest",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"CAM_shield\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

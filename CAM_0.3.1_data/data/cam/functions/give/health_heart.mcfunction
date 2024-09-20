@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:"{\"translate\":\"item.cam.health_heart\",\"italic\":\"false\"}"},CustomModelData:9102094,id:"cam:health_heart"}

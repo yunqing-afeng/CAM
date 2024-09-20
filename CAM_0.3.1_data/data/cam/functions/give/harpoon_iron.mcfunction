@@ -1,0 +1,1 @@
+give @s iron_sword{id:"cam:iron_harpoon",water:1b,display:{Name:"[{\"translate\":\"item.cam.iron_harpoon\",\"italic\":\"false\"}]"},CustomModelData:9102044}

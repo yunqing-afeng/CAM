@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{kill:1b,RepairCost:65,CustomModelData:9102003,display:{Name:'[{\"translate\":\"item.cam.killing_sword1\",\"color\":\"dark_gray\",\"bold\":true},{\"keybind\":\"key.attack\",\"bold\":true},{\"text\":\")\",\"color\":\"dark_gray\",\"bold\":true}]'},HideFlags:3,Enchantments:[{id:\"minecraft:smite\",lvl:8}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

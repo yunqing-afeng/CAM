@@ -1,0 +1,20 @@
+{
+	"type": "minecraft_chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{winterwine:1b,display:{Name:'[{\"translate\":\"winterwine_rough\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomPotionColor:15137533}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

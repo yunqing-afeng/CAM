@@ -1,0 +1,40 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "book1": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_book"
+                    ]
+                }
+            }
+        },
+        "book2": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:written_book"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "book1",
+            "book2"
+        ]
+    ],
+    "rewards": {
+        "function": "cam:villager/librarian/resupply_player"
+    }
+}

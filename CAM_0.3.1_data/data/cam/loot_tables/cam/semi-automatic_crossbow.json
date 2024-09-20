@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:semibow\",CAM_semi_crossbow:1b,CAM_semibow_candidates:[],CAM_semibow_capacity:3,CustomModelData:9102106,display:{Name:'{\"translate\":\"item.cam.semibow\",\"italic\": false}'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

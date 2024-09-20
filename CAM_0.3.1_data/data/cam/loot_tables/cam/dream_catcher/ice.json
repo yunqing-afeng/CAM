@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:dream_catcher\",display:{Name:'[{\"translate\":\"item.cam.dream_catcher\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"lore.cam.dc.ice\",\"color\":\"gray\",\"italic\":\"false\"}']},CAM_dream_catcher:1b,CustomModelData:9105017,CAM_catcher_type:8}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

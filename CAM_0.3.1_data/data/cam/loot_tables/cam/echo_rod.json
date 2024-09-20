@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.echo_rod\",\"italic\":\"false\"}'},CustomModelData:9102129,id:\"cam:echo_rod\",fisma:1,fisma_t:8}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

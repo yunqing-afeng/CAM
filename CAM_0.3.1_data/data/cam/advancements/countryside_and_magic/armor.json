@@ -1,0 +1,250 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "iron_leggings": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_leggings"
+                    ]
+                }
+            }
+        },
+        "iron_boots": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_boots"
+                    ]
+                }
+            }
+        },
+        "iron_chestplate": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_chestplate"
+                    ]
+                }
+            }
+        },
+        "iron_helmet": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_helmet"
+                    ]
+                }
+            }
+        },
+        "chain_leggings": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:chainmail_leggings"
+                    ]
+                }
+            }
+        },
+        "chain_boots": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:chainmail_boots"
+                    ]
+                }
+            }
+        },
+        "chain_chestplate": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:chainmail_chestplate"
+                    ]
+                }
+            }
+        },
+        "chain_helmet": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:chainmail_helmet"
+                    ]
+                }
+            }
+        },
+        "diamond_leggings": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_leggings"
+                    ]
+                }
+            }
+        },
+        "diamond_boots": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_boots"
+                    ]
+                }
+            }
+        },
+        "diamond_chestplate": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_chestplate"
+                    ]
+                }
+            }
+        },
+        "diamond_helmet": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_helmet"
+                    ]
+                }
+            }
+        },
+        "golden_leggings": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_leggings"
+                    ]
+                }
+            }
+        },
+        "golden_helmet": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_helmet"
+                    ]
+                }
+            }
+        },
+        "golden_chestplate": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_chestplate"
+                    ]
+                }
+            }
+        },
+        "golden_boots": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_boots"
+                    ]
+                }
+            }
+        },
+        "shield": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:shield"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron_leggings",
+            "iron_boots",
+            "iron_chestplate",
+            "iron_helmet",
+            "chain_leggings",
+            "chain_boots",
+            "chain_chestplate",
+            "chain_helmet",
+            "diamond_leggings",
+            "diamond_boots",
+            "diamond_chestplate",
+            "diamond_helmet",
+            "golden_leggings",
+            "golden_helmet",
+            "golden_chestplate",
+            "golden_boots",
+            "shield"
+        ]
+    ],
+    "rewards": {
+        "function": "cam:villager/armorer/resupply_player"
+    }
+}

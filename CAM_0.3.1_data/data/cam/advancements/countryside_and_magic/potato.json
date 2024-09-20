@@ -1,0 +1,19 @@
+{
+		"parent": "minecraft:adventure/root",
+		"criteria": {
+				"put_furnace": {
+						"trigger": "minecraft:consume_item",
+						"conditions": {
+								"item": {
+										"items": [
+												"minecraft:poisonous_potato"
+										],
+										"nbt": "{CAM_wither_potato:1b}"
+								}
+						}
+				}
+		},
+		"rewards": {
+				"function": "cam:cm/poisonous_potato/trigger"
+		}
+}

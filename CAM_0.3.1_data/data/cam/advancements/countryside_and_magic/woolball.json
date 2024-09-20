@@ -1,0 +1,18 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "shoot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "snowball"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cam:cm/woolball/trigger"
+    }
+}

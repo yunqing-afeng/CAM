@@ -1,0 +1,15 @@
+{
+	"values": [
+		"#uin:general/minecarts",
+		"minecraft:boat",
+		{
+			"required": false,
+			"id": "n/a",
+			"version": 1.19
+		},
+		{
+			"required": false,
+			"id": "minecraft:chest_boat"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.echo_prism\",\"italic\":\"false\"}'},CustomModelData:9102118,id:\"cam:echo_prism\",CAM_echo_prism:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

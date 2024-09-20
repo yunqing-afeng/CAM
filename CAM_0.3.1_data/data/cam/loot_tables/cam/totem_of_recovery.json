@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:totem_of_recovery\",CustomModelData:9102132,RepairCost:65,display:{Name:'[{\"translate\":\"item.cam.totem_of_recovery\",\"italic\":\"false\"}]',Lore:['{\"text\":\"\"}','{\"translate\":\"text.cam.recovery_1\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"text.cam.recovery_2\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"text.cam.recovery_3\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"text.cam.recovery_4\",\"color\":\"aqua\",\"italic\":false}']},CAM_totem:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

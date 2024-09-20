@@ -1,0 +1,23 @@
+{
+	"parent": "cam:3_year/harpoon",
+	"display": {
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"title": {
+			"translate": "advancements.camani.candle.title"
+		},
+		"description": {
+			"translate": "advancements.camani.candle.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"candle": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cam:3_year/adv/candle"
+	}
+}

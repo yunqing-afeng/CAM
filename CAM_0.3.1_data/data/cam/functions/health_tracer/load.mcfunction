@@ -1,0 +1,3 @@
+scoreboard objectives add CAM_htracer dummy
+scoreboard objectives add CAM_htracer_lt dummy
+scoreboard objectives add CAM_htracer_delta dummy

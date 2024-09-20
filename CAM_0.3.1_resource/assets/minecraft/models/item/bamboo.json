@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/bamboo"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":9102077},"model":"cm:bamboo_sampling"}
+  ]
+}

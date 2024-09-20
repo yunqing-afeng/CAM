@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:iron_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops",
+                  "function": "minecraft:apply_bonus"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                },
+                {
+                  "function": "minecraft:furnace_smelt",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "nbt": "{CAM_Enchantments:[{id:\"cam:smelt\"}]}"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#sac_enchant"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                }
+              ],
+              "name": "minecraft:raw_iron"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

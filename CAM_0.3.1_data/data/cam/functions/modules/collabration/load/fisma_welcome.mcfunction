@@ -1,0 +1,1 @@
+tellraw @a [{"text": "§l§9<>< <>< <>< <><"},{"translate":"text.fi.co_cam","clickEvent":{"action":"open_url","value":"https://www.mcbbs.net/thread-872714-1-2.html"},"color": "aqua"},{"text": "§3><> ><> ><> ><>"}]

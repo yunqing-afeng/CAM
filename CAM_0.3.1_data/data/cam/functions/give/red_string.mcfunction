@@ -1,0 +1,1 @@
+give @s string{display:{Name:"{\"translate\":\"item.cam.red_string\",\"italic\":\"false\"}"},CustomModelData:9102027,id:"cam:red_string"}

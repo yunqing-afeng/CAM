@@ -1,0 +1,1 @@
+give @s firework_star{display:{Name:'{"translate":"item.cam.weapon_debris","italic":false}'},CustomModelData:9102141,id:"cam:weapon_debris_iron_axe"}

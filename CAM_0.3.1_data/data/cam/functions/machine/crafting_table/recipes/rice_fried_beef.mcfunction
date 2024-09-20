@@ -1,0 +1,2 @@
+execute store result score @s CNC_SLout if data block ~ ~ ~ Items[{tag:{id:"cam:rice"}}]
+execute if block ~ ~ ~ minecraft:barrel{Items:[{id:"minecraft:bowl"},{id:"minecraft:cooked_beef"},{id:"minecraft:baked_potato"},{id:"minecraft:carrot"},{tag:{id:"cam:rice"}}]} if entity @s[scores={CNC_table_count=9,CNC_SLout=5}] run item replace block ~ ~ ~ container.16 with rabbit_stew{display:{Name:"{\"translate\":\"item.cam.rice_fried_beef\",\"color\":\"white\",\"italic\":\"false\"}"},CustomModelData:9102058,id:"cam:rice_fried_beef",Output:1b}

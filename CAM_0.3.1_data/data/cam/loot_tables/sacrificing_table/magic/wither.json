@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:wither\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:wither\",lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:wither\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 34,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:wither\",lvl:1}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "reference",
+              "name": "cam:sacrifice/diamond"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 32,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:wither\",lvl:2}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "reference",
+              "name": "cam:sacrifice/diamond"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:wither\",lvl:3}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "reference",
+              "name": "cam:sacrifice/diamond"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

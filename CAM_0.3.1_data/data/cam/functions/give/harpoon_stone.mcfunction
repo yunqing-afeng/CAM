@@ -1,0 +1,1 @@
+give @s stone_sword{id:"cam:stone_harpoon",water:1b,display:{Name:"[{\"translate\":\"item.cam.stone_harpoon\",\"italic\":\"false\"}]"},CustomModelData:9102043,CAM_output:1b}

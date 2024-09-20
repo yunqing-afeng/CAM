@@ -1,0 +1,292 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "group",
+              "children": [
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/fishbone_sword",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#cov_wea"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/bamboo_sword",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#cov_wea"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/wooden_long_rod",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#weapon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/harpoon_wooden",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#harpoon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/glaive",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#cov_wea"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/chain_blade",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#weapon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/harpoon_iron",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#harpoon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/metal_long_rod",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#weapon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/harpoon_diamond",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#harpoon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "loot_table",
+                  "name": "cam:cam/harpoon_stone",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#harpoon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#harpoon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    },
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#weapon"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    },
+                    {
+                      "condition": "minecraft:value_check",
+                      "value": {
+                        "type": "score",
+                        "target": {
+                          "type": "fixed",
+                          "name": "#cov_wea"
+                        },
+                        "score": "CAM_module"
+                      },
+                      "range": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "children": [
+                {
+                  "type": "item",
+                  "name": "iron_sword",
+                  "weight": 5
+                },
+                {
+                  "type": "item",
+                  "name": "diamond_sword",
+                  "weight": 1
+                },
+                {
+                  "type": "item",
+                  "name": "stone_sword",
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 8,
+            "max": 16
+          },
+          "treasure": true,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 24,
+            "max": 30
+          },
+          "treasure": true,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

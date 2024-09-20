@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.copper_sword_ragged\",\"italic\":false}'},CustomModelData:9102090,id:\"cam:copper_sword\",CAM_cps_type:1,CAM_cps_oxi:2,CAM_Enchantments:[{id:\"cam:breakable\",lvl:2,hide:1b}]}"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"max": 0.4,
+								"min": 0.2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

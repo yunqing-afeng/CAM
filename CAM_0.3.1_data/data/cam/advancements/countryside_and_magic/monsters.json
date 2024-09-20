@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword",
+      "nbt": "{CustomModelData:9102015}"
+    },
+    "title": {
+      "translate": "advancements.cam.monsters.title"
+    },
+    "description": {
+      "translate": "advancements.cam.monsters.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cam:countryside_and_magic/village_tales",
+  "criteria": {
+    "spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "nbt": "{spear:1b}"
+          }
+        ]
+      }
+    },
+    "harpoon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword"
+            ],
+            "nbt": "{id:\"cam:marine_harpoon\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "function": "cam:advancements/tale_monster"
+  }
+}

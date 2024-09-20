@@ -1,0 +1,1 @@
+give @s blast_furnace{CAM_sacrificing_table:1b,display:{Name:"[{\"translate\":\"item.cam.sacrificing_table\",\"italic\":false}]"},CustomModelData:9102065,id:"cam:sacrificing_table"}

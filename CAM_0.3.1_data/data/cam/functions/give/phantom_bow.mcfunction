@@ -1,0 +1,1 @@
+give @p minecraft:bow{id:"cam:phantom_bow",display:{Name:"[{\"translate\":\"item.cam.phantom_bow\",\"italic\":\"false\"}]"},CustomModelData:9102076} 1

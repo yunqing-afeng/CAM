@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"put_furnace": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"equipment": {
+							"mainhand": {
+								"nbt": "{CAM_Enchantments:[{id:\"cam:backbite\"}]}"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cam:magic/new_enchants/_entity/backbite"
+	}
+}

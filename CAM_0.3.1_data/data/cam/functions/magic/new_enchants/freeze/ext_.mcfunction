@@ -1,0 +1,1 @@
+stopsound @a * minecraft:entity.splash_potion.break

@@ -1,0 +1,24 @@
+{
+	"parent": "cam:3_year/harpoon",
+	"display": {
+		"icon": {
+			"item": "minecraft:bread",
+			"nbt": "{CustomModelData:9101002}"
+		},
+		"title": {
+			"translate": "advancements.camani.croissant.title"
+		},
+		"description": {
+			"translate": "advancements.camani.croissant.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"croissant": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cam:3_year/adv/croissant"
+	}
+}

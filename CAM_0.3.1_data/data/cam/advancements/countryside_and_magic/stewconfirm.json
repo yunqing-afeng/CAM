@@ -1,0 +1,78 @@
+{
+  "parent": "cam:countryside_and_magic/stewdoubt",
+  "display": {
+    "icon": {
+      "item": "minecraft:mushroom_stew",
+      "nbt": "{display:{Name:'[{\"translate\":\"item.cam.sweetbarry_stew\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomModelData:9102013}"
+    },
+    "title": {
+      "translate": "advancements.cam.stewconfirm.title"
+    },
+    "description": {
+      "translate": "advancements.cam.stewconfirm.description"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "suspicious_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    },
+    "snowstew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ],
+          "nbt": "{display:{Name:'[{\"translate\":\"item.cam.snow_stew\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomModelData:9102014}"
+        }
+      }
+    },
+    "weedstew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ],
+          "nbt": "{display:{Name:'[{\"translate\":\"item.cam.weedstew\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomModelData:9102009}"
+        }
+      }
+    },
+    "barrystew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ],
+          "nbt": "{display:{Name:'[{\"translate\":\"item.cam.sweetbarry_stew\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomModelData:9102013}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "suspicious_stew"
+    ],
+    [
+      "weedstew"
+    ],
+    [
+      "barrystew"
+    ],
+    [
+      "snowstew"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.bless_of_sea\",\"italic\":false}'},CustomModelData:9102126,id:\"cam:bless_of_sea\",Effects:[{EffectId:23,EffectDuration:1200},{EffectId:29,EffectDuration:6000},{EffectId:30,EffectDuration:6000},{EffectId:26,EffectDuration:6000},{EffectId:13,EffectDuration:12000}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

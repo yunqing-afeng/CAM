@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:iron_harpoon\",water:1b,display:{Name:'[{\"translate\":\"item.cam.iron_harpoon\",\"italic\":\"false\"}]'},CustomModelData:9102044}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

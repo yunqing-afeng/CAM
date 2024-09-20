@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stone_pickaxe"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":9102121},"model":"cm:copper_pickaxe_exp"},
+    {"predicate":{"custom_model_data":9102122},"model":"cm:copper_pickaxe_rag"}
+    ]
+}

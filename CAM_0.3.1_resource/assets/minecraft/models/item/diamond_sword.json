@@ -1,0 +1,20 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_sword"
+    },
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102006},"model":"weapon:vampire"},
+        {"predicate":{"custom_model_data":9102046},"model":"cm:diamond_harpoon"},
+        {"predicate":{"custom_model_data":9102079},"model":"weapon:amethyst_sword_broken"},
+        {"predicate":{"custom_model_data":9102079,"damage":0.9974375400384369},"model":"weapon:amethyst_sword"},
+        {"predicate":{"custom_model_data":9102079,"damage":0.9980781550288277},"model":"weapon:amethyst_sword_1"},
+        {"predicate":{"custom_model_data":9102079,"damage":0.9987187700192184},"model":"weapon:amethyst_sword_2"},
+        {"predicate":{"custom_model_data":9102079,"damage":0.9993593850096092},"model":"weapon:amethyst_sword_3"},
+        {"predicate":{"custom_model_data":9102087},"model":"weapon:copper_sword_bronze"},
+        {"predicate":{"custom_model_data":9102124},"model":"weapon:arcane_wand"}
+
+
+	
+    ]
+}

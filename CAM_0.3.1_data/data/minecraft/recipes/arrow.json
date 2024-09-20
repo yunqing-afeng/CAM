@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "#": {
+      "tag": "cam:arrow_sticks"
+    },
+    "X": {
+      "tag": "cam:arrow_head"
+    },
+    "Y": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 4
+  }
+}

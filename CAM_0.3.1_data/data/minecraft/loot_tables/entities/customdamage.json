@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_shulker_box",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{BlockEntityTag:{Items:[{id:\"minecraft:stone\",Slot:0,Count:1}]}}"
+						},
+						{
+							"function": "copy_nbt",
+							"source": "this",
+							"ops": [
+								{
+									"source": "SelectedItem",
+									"target": "BlockEntityTag.Items[0]",
+									"op": "merge"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

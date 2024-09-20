@@ -1,0 +1,2 @@
+execute if score @s CAM_dis_glass matches 1 run item replace block ~ ~ ~ container.9 with minecraft:firework_star{CustomModelData:9102104,display:{Name:"{\"translate\":\"item.cam.item_displayer_button_31\"}"},CAM_dis_bg:1b,cam_glass:1b}
+execute unless score @s CAM_dis_glass matches 1 run item replace block ~ ~ ~ container.9 with minecraft:firework_star{CustomModelData:9102105,display:{Name:"{\"translate\":\"item.cam.item_displayer_button_32\"}"},CAM_dis_bg:1b,cam_glass:1b}

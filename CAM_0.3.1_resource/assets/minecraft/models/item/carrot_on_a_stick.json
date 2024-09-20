@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102094},"model":"magic:health_heart"},
+      {"predicate":{"custom_model_data":9102096},"model":"weapon:axe_of_illager_king_1"},
+      {"predicate":{"custom_model_data":9102097},"model":"weapon:axe_of_illager_king_ex"},
+      {"predicate":{"custom_model_data":9102098},"model":"weapon:axe_of_illager_king_2"},
+      {"predicate":{"custom_model_data":9102113},"model":"weapon:celebration_harpoon"},
+      {"predicate":{"custom_model_data":9102113,"damage":0.923},"model":"weapon:celebration_harpoon_disabled"},
+		  { "predicate": {"custom_model_data": 9102116}, "model": "cm:shooter_unable"},
+		  { "predicate": {"custom_model_data": 9102117}, "model": "cm:shooter"},
+      {"predicate":{"custom_model_data":9102118},"model":"cm:echo_prism"},
+      {"predicate":{"custom_model_data":9102130},"model":"weapon:mysterious_cane"},
+
+
+
+
+
+
+
+
+
+
+
+      {"predicate":{"custom_model_data":9200001},"model":"weapon_ext:zhili"},
+      {"predicate":{"custom_model_data":9200002},"model":"weapon_ext:zhili_1"}
+    ]
+}

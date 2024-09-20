@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cooked_cod"
+  },
+  "overrides":[
+	    {"predicate":{"custom_model_data":9102041},"model":"cm:fish_cooked"},
+      {"predicate":{"custom_model_data":9102129},"model":"fisma_co:crayfish"}
+    ]
+}

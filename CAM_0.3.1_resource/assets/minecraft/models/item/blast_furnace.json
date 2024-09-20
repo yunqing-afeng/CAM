@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/blast_furnace",
+  "overrides":[
+	    {"predicate":{"custom_model_data":9102065},"model":"machine:sacrifice_table"},
+      { "predicate": {"custom_model_data": 9102098}, "model": "display:displayer"}
+    ]
+}

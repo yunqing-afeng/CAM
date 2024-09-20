@@ -1,0 +1,1 @@
+give @s firework_star{display:{Name:"{\"translate\":\"item.cam.sculk_dust\",\"color\":\"white\",\"italic\":\"false\"}"},CustomModelData:9102115,id:"cam:sculk_dust"}

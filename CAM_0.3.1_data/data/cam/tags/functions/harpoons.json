@@ -1,0 +1,10 @@
+{
+    "values":[
+        "cam:machine/crafting_table/recipes/harpoon/wooden",
+        "cam:machine/crafting_table/recipes/harpoon/stone",
+        "cam:machine/crafting_table/recipes/harpoon/iron",
+        "cam:machine/crafting_table/recipes/harpoon/golden",
+        "cam:machine/crafting_table/recipes/harpoon/diamond",
+        "cam:machine/crafting_table/recipes/harpoon/netherite"
+    ]
+}

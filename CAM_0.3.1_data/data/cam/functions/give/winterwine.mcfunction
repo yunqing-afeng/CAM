@@ -1,0 +1,1 @@
+give @s potion{display:{Name:"[{\"translate\":\"item.cam.winter_wine\",\"color\":\"yellow\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"},CustomPotionColor:9892057,id:"cam:winterwine",CAM_wine:1b,CAM_alcohol:200,HideFlags:32,CAM_intensity:5b,CAM_winetype:0,CAM_winelimit:200,CAM_if_rough:0b}

@@ -1,0 +1,1 @@
+execute as @e[scores={CAM_dt_deathtime=1},sort=nearest,limit=1,tag=CAM_dtracer] at @s positioned ~ ~-1 ~ run loot spawn ~ ~ ~ loot minecraft:chests/enderman

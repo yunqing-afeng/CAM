@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "cam:enchant/catalyze/health"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "cam:enchant/catalyze/strength"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "cam:enchant/catalyze/defence"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "cam:enchant/catalyze/random"
+        }
+    ]
+}

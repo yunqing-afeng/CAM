@@ -1,0 +1,99 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "cam:furance/copper/item"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "nbt": "{Items:[{Slot:2b,tag:{id:\"cam:copper_nugget\"}}]}"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "cam:furance/copper/item_2"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "nbt": "{Items:[{Slot:2b,tag:{id:\"cam:copper_nugget\"}}]}"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "cam:furance/copper/item"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:2b}]}"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:2b,tag:{id:\"cam:copper_nugget\"},Count:64b}]}"
+          }
+        }
+      }
+    ]
+  }
+}

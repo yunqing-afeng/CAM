@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:amethyst_sword\",CustomModelData:9102079,Damage:1557,RepairCost:65,display:{Name:'[{\"translate\":\"item.cam.amethyst_sword\",\"italic\":\"false\"}]',Lore:['{\"translate\":\"enchant.cam.amethyst_chime\",\"color\":\"gray\",\"italic\":\"false\"}','{\"text\":\"\"}','{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":10},{\"translate\":\"attribute.name.generic.attackDamage\"}],\"color\":\"dark_green\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":1.6},{\"translate\":\"attribute.name.generic.attackSpeed\"}],\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"cam:antigrind\"}],CAM_Enchantments:[{id:\"cam:amethyst_chime\",lvl:1}],CAM_antigrind:1b,CAM_grindtype:3,AttributeModifiers:[{Operation:0,Amount:9,UUID:[I;183,14,54563,65],Slot:mainhand,AttributeName:\"generic.attack_damage\",Name:\"CAM\"},{Operation:0,Amount:-2.4,UUID:[I;183,14,54564,4564],Slot:mainhand,AttributeName:\"generic.attack_speed\",Name:\"CAM\"}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+give @s blast_furnace{CustomModelData:9102098,CAM_item_displayer:1b,display:{Name:"[{\"translate\":\"item.cam.item_displayer\",\"italic\":false}]"}}

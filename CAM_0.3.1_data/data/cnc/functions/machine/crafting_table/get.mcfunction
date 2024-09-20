@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:crafting_table",Count:1b},OnGround:1b},limit=1] at @s unless entity @s[nbt={Item:{tag:{id:"cam:crafting_table"}}}] if entity @e[type=item,nbt={Item:{Count:1b,tag:{id:"cam:weed"}},OnGround:1b},distance=..2] run function cnc:machine/crafting_table/kill

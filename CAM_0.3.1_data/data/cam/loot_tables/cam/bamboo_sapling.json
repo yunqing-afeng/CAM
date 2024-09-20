@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bamboo",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.bamboo_sapling\",\"italic\":\"false\"}'},CustomModelData:9102077,CAM_output:1b,id:\"cam:bamboo_sapling\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

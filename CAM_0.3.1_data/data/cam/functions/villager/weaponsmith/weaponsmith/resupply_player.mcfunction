@@ -1,0 +1,2 @@
+advancement revoke @s only cam:countryside_and_magic/weapon
+execute positioned ^ ^ ^3 as @e[type=minecraft:villager,nbt={VillagerData:{profession:"minecraft:weaponsmith"}},sort=nearest,limit=1] at @s run function cam:villager/weaponsmith/weaponsmith/resupply_villager

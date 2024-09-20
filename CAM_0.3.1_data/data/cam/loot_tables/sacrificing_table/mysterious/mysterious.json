@@ -1,0 +1,90 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:sacrificing_table/mysterious/stormchop",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:inverted",
+                                    "term": {
+                                        "condition": "minecraft:any_of",
+                                        "terms": [
+                                            {
+                                                "condition": "minecraft:entity_properties",
+                                                "entity": "this",
+                                                "predicate": {
+                                                    "equipment": {
+                                                        "chest": {
+                                                            "tag": "cam:bows"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "chest": {
+                                                "tag": "cam:bows",
+                                                "nbt": "{id:\"cam:bow_with_blade\"}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:sacrificing_table/mysterious/stormchop",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:any_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:entity_properties",
+                                        "entity": "this",
+                                        "predicate": {
+                                            "equipment": {
+                                                "chest": {
+                                                    "items": [
+                                                        "minecraft:trident"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:sacrificing_table/mysterious/shield",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:sacrificing_table/mysterious/tyrant",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

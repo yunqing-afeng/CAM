@@ -1,0 +1,10 @@
+scoreboard objectives add CAM_sapphire dummy
+scoreboard objectives add CAM_sapphire2 dummy
+scoreboard objectives add CAM_tradecount minecraft.custom:minecraft.traded_with_villager
+scoreboard objectives add CAM_tradetrigger minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add CAM_twoardsx1 dummy
+scoreboard objectives add CAM_twoardsx2 dummy
+scoreboard objectives add CAM_twoardsy1 dummy
+scoreboard objectives add CAM_twoardsy2 dummy
+scoreboard objectives add CAM_extrade dummy
+scoreboard objectives add CAM_greattrade minecraft.custom:minecraft.traded_with_villager

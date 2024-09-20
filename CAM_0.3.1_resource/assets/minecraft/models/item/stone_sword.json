@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stone_sword"
+  },
+  "overrides":[
+		{"predicate":{"custom_model_data":9102035},"model":"weapon:staff_of_aesculapius"},
+		{"predicate":{"custom_model_data":9102036},"model":"weapon:staff_of_aesculapius_1"},
+		{"predicate":{"custom_model_data":9102043},"model":"cm:stone_harpoon"}
+    ]
+}

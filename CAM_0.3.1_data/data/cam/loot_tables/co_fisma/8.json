@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 18,
+          "quality": -3,
+          "name": "cam:co_fisma/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "quality": 3,
+          "name": "cam:co_fisma/treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "fisma:gameplay/fishing/fish",
+          "weight": 10,
+          "quality": -4
+        }
+      ]
+    }
+  ]
+}

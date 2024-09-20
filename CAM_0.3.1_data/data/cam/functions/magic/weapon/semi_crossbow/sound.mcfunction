@@ -1,0 +1,1 @@
+execute as @a[tag=CAM_semibow_charged] at @s run playsound item.crossbow.loading_end player @a ~ ~ ~

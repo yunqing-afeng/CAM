@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "cm:block/knot"
+	},
+	"display": {
+	"firstperson_righthand": {
+            "rotation": [ 0, -45, 25 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+		"fixed": {
+			"scale": [2, 2, 1.1]
+		}
+	}
+}

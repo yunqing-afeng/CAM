@@ -1,0 +1,2 @@
+execute as @s run scoreboard players operation @s CAM_sapphire2 -= @s CAM_sapphire
+execute as @s unless score @s CAM_sapphire2 matches 0 run advancement grant @s only cam:countryside_and_magic/badtrade

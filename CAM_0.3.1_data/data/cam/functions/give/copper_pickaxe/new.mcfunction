@@ -1,0 +1,1 @@
+give @s iron_pickaxe{display:{Name:"{\"translate\":\"item.cam.copper_pickaxe\",\"italic\":false}"},CustomModelData:9102120,id:"cam:copper_pickaxe",CAM_cp_oxi:0,CAM_Enchantments:[{id:"cam:breakable",lvl:1,hide:1b}]}

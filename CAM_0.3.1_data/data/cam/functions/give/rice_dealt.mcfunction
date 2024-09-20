@@ -1,0 +1,1 @@
+give @s minecraft:mushroom_stew{display:{Name:"{\"translate\":\"item.cam.rice_dealt\",\"color\":\"white\",\"italic\":\"false\"}"},CustomModelData:9102057,id:"cam:rice_dealt"}

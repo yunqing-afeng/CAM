@@ -1,0 +1,24 @@
+{
+	"parent": "cam:3_year/harpoon",
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_rocket"
+		},
+		"title": {
+			"translate": "advancements.camani.firework.title"
+		},
+		"description": {
+			"translate": "advancements.camani.firework.description"
+		},
+		"frame": "task",
+		"hidden": true
+	},
+	"criteria": {
+		"firework": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "cam:3_year/adv/fireworks"
+	}
+}

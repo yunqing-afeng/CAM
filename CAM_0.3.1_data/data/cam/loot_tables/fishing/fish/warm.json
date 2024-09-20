@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "cam:fishing/cod",
+                    "weight": 40
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:salmon",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pufferfish",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tropical_fish",
+                    "weight": 25
+                }
+            ]
+        }
+    ]
+}

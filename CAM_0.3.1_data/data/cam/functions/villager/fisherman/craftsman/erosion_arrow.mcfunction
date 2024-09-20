@@ -1,0 +1,5 @@
+data modify entity @s Offers.Recipes append value {maxUses:16,buy:{id:"minecraft:stone",Count:1b},sell:{id:"minecraft:tipped_arrow",Count:1b,tag:{id:"cam:erosion_arrow",Potion:CAM,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:400},{Id:19,Amplifier:0,Duration:400}],CustomPotionColor:14807065,display:{Name:"[{\"translate\":\"item.cam.erosion_arrow\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"translate\":\"lore.cam.erosion\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},HideFlags:32,CustomModelData:9102029}},buyB:{id:"minecraft:air",Count:1b},xp:15,uses:0,priceMultipler:0.05f,sepcialPrice:0,rewardExp:1b}
+loot spawn ~ ~ ~ loot cam:villager/craftsman/emerald_arrow
+execute as @e[type=item,limit=1,distance=..1,sort=nearest] at @s run tag @s add CAM_temp1
+data modify entity @s Offers.Recipes[-1].buy set from entity @e[type=item,limit=1,tag=CAM_temp1,sort=nearest] Item
+kill @e[tag=CAM_temp1,type=item]

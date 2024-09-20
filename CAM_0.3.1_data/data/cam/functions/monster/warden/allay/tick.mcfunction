@@ -1,0 +1,1 @@
+execute as @e[type=warden] at @s run function cam:monster/warden/allay/suspect

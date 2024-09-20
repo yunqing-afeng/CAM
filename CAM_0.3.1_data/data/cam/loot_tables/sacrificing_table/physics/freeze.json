@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:2}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:4}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:5}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 27,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:2}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "reference",
+              "name": "cam:sacrifice/diamond"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 26,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:3}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "reference",
+              "name": "cam:sacrifice/diamond"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:4}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "reference",
+              "name": "cam:sacrifice/diamond"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:freeze\",lvl:5}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "reference",
+              "name": "cam:sacrifice/diamond"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

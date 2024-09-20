@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:metal_long_rod\",CustomModelData:9102022,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Amount:4,Name:\"CAM\",UUIDLeast:1,UUIDMost:1,UUID:[I;15614,9847516,49848,984],Slot:mainhand,Operation:0},{AttributeName:\"generic.attackSpeed\",Amount:-3,Name:\"CAM\",UUIDLeast:1,UUIDMost:1,UUID:[I;9845,49841,4961,22],Slot:mainhand,Operation:0},{AttributeName:\"generic.attack_damage\",Amount:4,Name:\"CAM\",UUIDLeast:1,UUIDMost:1,UUID:[I;15614,9847516,49848,984],Slot:mainhand,Operation:0},{AttributeName:\"generic.attack_speed\",Amount:-3,Name:\"CAM\",UUIDLeast:1,UUIDMost:1,UUID:[I;9845,49841,4961,22],Slot:mainhand,Operation:0}],display:{Lore:['{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":5},{\"translate\":\"attribute.name.generic.attackDamage\"}],\"color\":\"dark_green\",\"italic\":false}','{\"translate\":\"attribute.modifier.equals.0\",\"with\":[{\"text\":0.6},{\"translate\":\"attribute.name.generic.attackSpeed\"}],\"color\":\"dark_green\",\"italic\":false}'],Name:'{\"translate\":\"item.cam.metal_long_rod\",\"italic\":false}'},HideFlags:2,RodModeShift:1b,CAM_rod:1b}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

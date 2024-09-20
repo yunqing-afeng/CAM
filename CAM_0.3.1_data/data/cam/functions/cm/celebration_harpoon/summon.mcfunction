@@ -1,0 +1,3 @@
+execute if predicate cam:misc/celebration_harpoon/mainhand store result score @s CAM_ch_damage run data get entity @s SelectedItem.tag.Damage
+execute if predicate cam:misc/celebration_harpoon/offhand store result score @s CAM_ch_damage run data get entity @s Inventory[{Slot:-106b}].tag.Damage
+execute unless score @s CAM_ch_damage matches 24.. if score @s CAM_ch_timer matches ..0 run function cam:cm/celebration_harpoon/summon_

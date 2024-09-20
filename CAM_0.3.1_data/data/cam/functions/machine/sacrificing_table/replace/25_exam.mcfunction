@@ -1,0 +1,2 @@
+execute if predicate cam:sacrifice/ok_enable run item replace block ~ ~ ~ container.25 with minecraft:firework_star{CustomModelData:9102070,display:{Name:"{\"translate\":\"item.cam.sacrificing_table_yes\"}"},CAM_sac_ok:1b,CAM_bg:1b}
+execute unless predicate cam:sacrifice/ok_enable run item replace block ~ ~ ~ container.25 with minecraft:firework_star{CustomModelData:9102071,display:{Name:"{\"translate\":\"item.cam.sacrificing_table_yes_disabled\"}"},CAM_bg:1b}

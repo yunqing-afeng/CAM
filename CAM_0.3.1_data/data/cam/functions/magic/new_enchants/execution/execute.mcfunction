@@ -1,0 +1,2 @@
+execute if score @s CAM_htracer <= @a[tag=CAM_executer,sort=nearest,limit=1] CAM_execute_h run particle dust 0.639 0 0 255 ~ ~ ~ 1 1 1 2 10
+execute if score @s CAM_htracer <= @a[tag=CAM_executer,sort=nearest,limit=1] CAM_execute_h run damage @s 100000 cam:execution by @e[tag=CAM_executer,limit=1,sort=nearest]

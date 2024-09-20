@@ -1,0 +1,68 @@
+{
+  "parent": "cam:countryside_and_magic/crafting_table_get",
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "advancements.cam.stewdoubt.title"
+    },
+    "description": {
+      "translate": "advancements.cam.stewdoubt.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "suspicious_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    },
+    "snowstew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ],
+          "nbt": "{display:{Name:'[{\"translate\":\"item.cam.snow_stew\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomModelData:9102014}"
+        }
+      }
+    },
+    "weedstew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ],
+          "nbt": "{display:{Name:'[{\"translate\":\"item.cam.weedstew\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomModelData:9102009}"
+        }
+      }
+    },
+    "barrystew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ],
+          "nbt": "{display:{Name:'[{\"translate\":\"item.cam.sweetbarry_stew\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},CustomModelData:9102013}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "suspicious_stew",
+      "weedstew",
+      "barrystew",
+      "snowstew"
+    ]
+  ]
+}

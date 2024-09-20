@@ -1,0 +1,25 @@
+{
+	"parent": "cam:countryside_and_magic/root",
+	"criteria": {
+		"put_table": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:lantern"
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"nbt": "{CAM_palace_lantern:2b}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cam:cm/palace_lantern/set_2"
+	}
+}

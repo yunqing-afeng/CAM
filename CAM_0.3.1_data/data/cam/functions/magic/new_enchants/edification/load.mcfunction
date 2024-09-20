@@ -1,0 +1,3 @@
+scoreboard objectives add CAM_edification totalKillCount
+scoreboard objectives add CAM_edilvl dummy
+scoreboard objectives add CAM_edi_xp dummy

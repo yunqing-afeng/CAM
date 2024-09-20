@@ -1,0 +1,1 @@
+data modify storage cam:village rice.tag set value {display:{Name:"{\"translate\":\"item.cam.rice\",\"color\":\"white\",\"italic\":\"false\"}"},CAM_rice:1b,CustomModelData:9102048,id:"cam:rice"}

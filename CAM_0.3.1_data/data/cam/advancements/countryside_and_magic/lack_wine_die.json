@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lingering_potion",
+      "nbt": "{CustomPotionColor:346937}"
+    },
+    "title": {
+      "translate": "advancements.cam.lackwine.title"
+    },
+    "description": {
+      "translate": "advancements.cam.lackwine.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cam:countryside_and_magic/first_drink",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"CAM_withdrawl\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 65
+  }
+}

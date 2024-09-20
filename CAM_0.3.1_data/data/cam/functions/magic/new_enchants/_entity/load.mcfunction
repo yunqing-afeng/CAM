@@ -1,0 +1,1 @@
+scoreboard objectives add CAM_enchant_lvl dummy

@@ -1,0 +1,96 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "wooden_swords": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"},Tags:[\"CAM_craftsman\"]}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:wooden_sword"
+                    ]
+                }
+            }
+        },
+        "iron_swords": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"},Tags:[\"CAM_craftsman\"]}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_sword"
+                    ]
+                }
+            }
+        },
+        "diamond_swords": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"},Tags:[\"CAM_craftsman\"]}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_sword"
+                    ]
+                }
+            }
+        },
+        "stone_swords": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"},Tags:[\"CAM_craftsman\"]}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_sword"
+                    ]
+                }
+            }
+        },
+        "lantern": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"},Tags:[\"CAM_craftsman\"]}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:lantern"
+                    ]
+                }
+            }
+        },
+        "dream_catcher": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"},Tags:[\"CAM_craftsman\"]}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:item_frame"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wooden_swords",
+            "iron_swords",
+            "diamond_swords",
+            "stone_swords",
+            "lantern",
+            "dream_catcher"
+        ]
+    ],
+    "rewards": {
+        "function": "cam:villager/fisherman/craftsman/resupply/resupply_player"
+    }
+}

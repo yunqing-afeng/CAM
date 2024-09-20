@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "{CustomModelData:9102047}"
+    },
+    "title": {
+      "translate": "advancements.cam.tyrant.title"
+    },
+    "description": {
+      "translate": "advancements.cam.tyrant.description"
+    },
+    "frame": "task"
+  },
+  "parent": "cam:countryside_and_magic/priest",
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"CAM_tyrant\"]}"
+        }
+      }
+    }
+  }
+}

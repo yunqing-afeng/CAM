@@ -1,0 +1,27 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{CAM_Enchantments:[{id:\"cam:catalyze_0\"}]}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "nbt": "{CAM_Enchantments:[{id:\"cam:catalyze_0\"}]}"
+                    }
+                }
+            }
+        }
+    ]
+}

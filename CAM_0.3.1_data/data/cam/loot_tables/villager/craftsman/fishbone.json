@@ -1,0 +1,46 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "loot_table",
+                            "name": "cam:cam/fish_bone",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "max": 3,
+                                        "min": 1
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "score",
+                                        "target": {
+                                            "type": "fixed",
+                                            "name": "#others"
+                                        },
+                                        "score": "CAM_module"
+                                    },
+                                    "range": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "bone"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

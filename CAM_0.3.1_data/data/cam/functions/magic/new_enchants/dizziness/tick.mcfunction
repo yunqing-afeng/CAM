@@ -1,0 +1,2 @@
+execute as @a[predicate=cam:enchant/dizzy,scores={CAM_damage3=1..}] at @s anchored eyes positioned ^ ^ ^2.5 as @e[distance=..2.5,sort= nearest,limit= 1,tag=!dizzy,nbt={HurtTime:10s}] at @s run function cam:magic/new_enchants/dizziness/random
+scoreboard players reset @a CAM_damage3

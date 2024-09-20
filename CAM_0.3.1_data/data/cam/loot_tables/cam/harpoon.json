@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{id:\"cam:harpoon\",water:2b,display:{Lore:['{\"translate\":\"lore.cam.harpoon\",\"color\":\"gray\",\"italic\":\"false\"}'],Name:'[{\"translate\":\"item.cam.harpoon\",\"italic\":\"false\"}]',CustomModelData:9102002}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

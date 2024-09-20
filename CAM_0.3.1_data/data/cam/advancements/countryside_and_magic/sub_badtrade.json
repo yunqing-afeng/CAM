@@ -1,0 +1,33 @@
+{
+    "parent": "cam:countryside_and_magic/root",
+    "criteria": {
+        "hammer": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "nbt": "{display:{Name:'[{\"translate\":\"item.cam.dizziness\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"enchant.cam.dizziness2\"}']},dizziness:2b,CustomModelData:9102005,Enchantments:[{}]}"
+                }
+            }
+        },
+        "emerald": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "count": 3,
+                    "items": [
+                        "minecraft:emerald"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hammer",
+            "emerald"
+        ]
+    ],
+    "rewards": {
+        "function": "cam:advancements/trigger"
+    }
+}

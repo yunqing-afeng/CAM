@@ -1,0 +1,7 @@
+{
+    "values": [
+        "cam:machine/crafting_table/recipes/ricewine_rough",
+        "cam:machine/crafting_table/recipes/fruitwine_rough",
+        "cam:machine/crafting_table/recipes/wine_rough"
+    ]
+}

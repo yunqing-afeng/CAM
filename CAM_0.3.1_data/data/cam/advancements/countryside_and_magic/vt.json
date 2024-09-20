@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "advancements.cam.village_tales.title"
+    },
+    "description": {
+      "translate": "advancements.cam.village_tales.description"
+    },
+    "frame": "task"
+  },
+  "parent": "cam:countryside_and_magic/root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "written_book"
+            ],
+            "nbt": "{CAM_tale:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

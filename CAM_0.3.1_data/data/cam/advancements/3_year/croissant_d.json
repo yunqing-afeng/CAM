@@ -1,0 +1,33 @@
+{
+	"parent": "cam:3_year/_croissant",
+	"display": {
+		"icon": {
+			"item": "minecraft:bread",
+			"nbt": "{CustomModelData:9101005}"
+		},
+		"title": {
+			"translate": "advancements.camani.croissant_d.title"
+		},
+		"description": {
+			"translate": "advancements.camani.croissant_d.description"
+		},
+		"frame": "goal"
+	},
+	"criteria": {
+		"croissant1": {
+			"trigger": "minecraft:impossible"
+		},
+		"croissant2": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"croissant1",
+			"croissant2"
+		]
+	],
+	"rewards": {
+		"function": "cam:3_year/adv/croissant_d"
+	}
+}

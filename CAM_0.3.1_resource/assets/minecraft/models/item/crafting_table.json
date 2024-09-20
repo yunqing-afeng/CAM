@@ -1,0 +1,7 @@
+{
+    "parent": "block/crafting_table",
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102026},"model":"machine:craft_table_block"}
+    ]
+
+}

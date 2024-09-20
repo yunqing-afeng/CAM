@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:arrow,nbt={CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:400},{Id:19b,Amplifier:0b,Duration:400}],inGround:1b}] at @s run function cam:magic/weapon/erosion_arrow/arrow

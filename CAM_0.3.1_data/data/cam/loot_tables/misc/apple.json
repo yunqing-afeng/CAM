@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/green_apple",
+                    "weight": 2,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#food"
+                                },
+                                "score": "CAM_module"
+                            },
+                            "range": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

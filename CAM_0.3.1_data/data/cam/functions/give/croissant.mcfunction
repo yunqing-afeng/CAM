@@ -1,0 +1,1 @@
+give @s minecraft:bread{CustomModelData:9102119,id:"cam:croissant",display:{Name:"[{\"translate\":\"item.cam.croissant\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"}}

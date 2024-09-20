@@ -1,0 +1,1 @@
+execute if score #welcome CAM_module matches 1 run function cam:lay/welcome_

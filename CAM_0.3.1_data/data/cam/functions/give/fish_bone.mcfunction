@@ -1,0 +1,1 @@
+give @s bone{id:"cam:fish_bone",display:{Lore:["{\"translate\":\"lore.cam.fishbone\",\"color\":\"gray\",\"italic\":\"false\"}"],Name:"[{\"translate\":\"item.cam.fishbone\",\"italic\":\"false\"}]"},CustomModelData:9102004}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/suspicious_stew"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 613001},"model": "fisma:item/stew"},
+    {"predicate": {"custom_model_data": 9102126},"model": "fisma_co:bless_of_sea"},
+    {"predicate": {"custom_model_data": 9102127},"model": "fisma_co:error_stew"}
+]
+}

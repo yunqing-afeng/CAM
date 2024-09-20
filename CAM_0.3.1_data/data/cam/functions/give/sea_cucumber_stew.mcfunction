@@ -1,0 +1,1 @@
+give @s mushroom_stew{display:{Name:"{\"translate\":\"item.cam.sea_cucumber_stew\",\"italic\":\"false\"}"},CustomModelData:9102124,id:"cam:sea_cucumber_stew"}

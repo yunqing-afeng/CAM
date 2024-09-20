@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:9102039,id:\"cam:bushmeat\",display:{Name:'[{\"translate\":\"item.cam.bushmeat\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},bushmeat:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

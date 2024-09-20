@@ -1,0 +1,2 @@
+scoreboard objectives add CAM_rem custom:damage_dealt
+scoreboard objectives add CAM_remkill totalKillCount

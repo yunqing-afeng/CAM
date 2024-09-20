@@ -1,0 +1,44 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/firework_star",
+		"layer1": "item/firework_star_overlay"
+    },
+	"overrides":[
+		{"predicate": {"custom_model_data": 613000},"model": "fisma:item/luck"},
+
+		
+		{ "predicate": {"custom_model_data": 9101001}, "model": "3_year:cake"},
+		{ "predicate": {"custom_model_data": 9101003}, "model": "3_year:golden_heart"},
+	    {"predicate":{"custom_model_data":9102001},"model":"magic:poison_heart"},
+		{"predicate":{"custom_model_data":9102024},"model":"machine:craft_table"},
+		{"predicate":{"custom_model_data":9102025},"model":"machine:empty"},
+        {"predicate":{"custom_model_data":9102066},"model":"machine:sacrifice_table_gui"},
+		{"predicate":{"custom_model_data":9102067},"model":"machine:sac_table_sapphire_slot"},
+		{"predicate":{"custom_model_data":9102068},"model":"machine:sac_table_weapon_slot"},
+		{"predicate":{"custom_model_data":9102069},"model":"machine:sac_table_no"},
+		{"predicate":{"custom_model_data":9102070},"model":"machine:sac_table_yes"},
+		{"predicate":{"custom_model_data":9102071},"model":"machine:sac_table_yes_disabled"},
+		{"predicate":{"custom_model_data":9102074},"model":"machine:barrel_gui"},
+		{ "predicate": {"custom_model_data": 9102097}, "model": "display:displayer_gui"},
+		{ "predicate": {"custom_model_data": 9102098}, "model": "display:displayer"},
+		{ "predicate": {"custom_model_data": 9102099}, "model": "display:button_11"},
+		{ "predicate": {"custom_model_data": 9102100}, "model": "display:button_12"},
+		{ "predicate": {"custom_model_data": 9102101}, "model": "display:button_21"},
+		{ "predicate": {"custom_model_data": 9102102}, "model": "display:button_22"},
+		{ "predicate": {"custom_model_data": 9102103}, "model": "display:displayer_with_glass"},
+		{ "predicate": {"custom_model_data": 9102104}, "model": "display:button_31"},
+		{ "predicate": {"custom_model_data": 9102105}, "model": "display:button_32"},
+		{ "predicate": {"custom_model_data": 9102108}, "model": "cm:core"},
+		{ "predicate": {"custom_model_data": 9102114}, "model": "cm:rotten_leather"},
+		{ "predicate": {"custom_model_data": 9102115}, "model": "cm:sculk_dust"},
+		{ "predicate": {"custom_model_data": 9102123}, "model": "cm:copper_nugget"},
+		{ "predicate": {"custom_model_data": 9102134}, "model": "cm:broken_prism"},
+		{ "predicate": {"custom_model_data": 9102135}, "model": "cm:eroded_sword"},
+		{ "predicate": {"custom_model_data": 9102139}, "model": "cm:ocean_clock"},
+		{ "predicate": {"custom_model_data": 9102140}, "model": "cm:weapon_debris/bow"},
+		{ "predicate": {"custom_model_data": 9102141}, "model": "cm:weapon_debris/iron_axe"},
+		{ "predicate": {"custom_model_data": 9102142}, "model": "cm:weapon_debris/iron_sword"},
+		{ "predicate": {"custom_model_data": 9102143}, "model": "cm:weapon_debris/stone_sword"}
+    ]
+}

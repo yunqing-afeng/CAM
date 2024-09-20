@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mushroom_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"translate\":\"item.cam.sea_cucumber_stew\",\"italic\":\"false\"}'},CustomModelData:9102124,id:\"cam:sea_cucumber_stew\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

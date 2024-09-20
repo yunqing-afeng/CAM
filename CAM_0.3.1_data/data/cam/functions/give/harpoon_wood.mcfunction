@@ -1,0 +1,1 @@
+give @s wooden_sword{id:"cam:wooden_harpoon",water:1b,display:{Name:"[{\"translate\":\"item.cam.wooden_harpoon\",\"italic\":\"false\"}]"},CustomModelData:9102042}

@@ -1,0 +1,16 @@
+{
+  "parent": "cam:countryside_and_magic/root",
+  "rewards": {
+    "function": "cam:cm/bushmeat/random"
+  },
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{bushmeat:1b}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrel",
+            "nbt": "{CustomModelData:9102073}"
+        },
+        "title": {
+            "translate": "advancements.cam.winery.title"
+        },
+        "description": {
+            "translate": "advancements.cam.winery.descrption"
+        }
+    },
+    "parent": "cam:countryside_and_magic/crafting_table_get",
+    "criteria": {
+        "sacrficing_table": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "nbt": "{id:\"cam:wine_barrel\",CAM_barrel:1b,CustomModelData:9102073,display:{Name:'[{\"translate\":\"item.cam.wine_barrel\",\"italic\":false}]'}}"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

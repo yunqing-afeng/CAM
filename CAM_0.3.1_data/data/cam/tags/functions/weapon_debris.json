@@ -1,0 +1,8 @@
+{
+    "values": [
+        "cam:machine/crafting_table/recipes/weapon_debris/bow",
+        "cam:machine/crafting_table/recipes/weapon_debris/iron_axe",
+        "cam:machine/crafting_table/recipes/weapon_debris/iron_sword",
+        "cam:machine/crafting_table/recipes/weapon_debris/stone_sword"
+    ]
+}

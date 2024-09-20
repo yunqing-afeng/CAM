@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe",
+            "nbt": "{CustomModelData:9102005}"
+        },
+        "title": {
+            "translate": "advancements.cam.goodtrade.title"
+        },
+        "description": {
+            "translate": "advancements.cam.goodtrade.description"
+        },
+        "frame": "task"
+    },
+    "parent": "cam:countryside_and_magic/sapphire",
+    "criteria": {
+        "hammer": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "nbt": "{display:{Name:'[{\"translate\":\"item.cam.dizziness\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"translate\":\"enchant.cam.dizziness2\"}']},dizziness:2b,CustomModelData:9102005,Enchantments:[{}]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hammer"
+        ]
+    ]
+}

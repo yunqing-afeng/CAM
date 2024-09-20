@@ -1,0 +1,92 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:name_tag",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:amethyst_shard",
+                    "weight": 25
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:disc_fragment_5",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:echo_shard",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "cam:cam/copper_sword/bronze",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:copper_ingot",
+                    "weight": 30
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:exploration_map",
+                            "destination": "cam:ancient_city",
+                            "skip_existing_chunks": false,
+                            "search_radius": 3000,
+                            "decoration": "target_x",
+                            "zoom": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"translate\":\"lore.cam.maprag\"}'],Name:'[{\"translate\":\"item.cam.unknownmap\",\"italic\":\"false\"}]'},HideFlags:1}"
+                        }
+                    ],
+                    "name": "minecraft:map",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

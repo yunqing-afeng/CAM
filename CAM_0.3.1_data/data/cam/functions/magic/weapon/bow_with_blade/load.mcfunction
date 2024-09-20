@@ -1,0 +1,1 @@
+scoreboard objectives add CAM_bowdamage minecraft.custom:minecraft.damage_dealt

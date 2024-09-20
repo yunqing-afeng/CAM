@@ -1,0 +1,1 @@
+give @s cooked_cod{CustomModelData:9102041,display:{Name:"[{\"translate\":\"item.cam.fish_cooked\",\"color\":\"white\",\"italic\":\"false\"}]"},id:"cam:cooked_fish"}

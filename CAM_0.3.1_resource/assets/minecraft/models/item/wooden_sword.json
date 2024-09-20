@@ -1,0 +1,19 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/wooden_sword"
+    },
+	"overrides":[
+		{"predicate":{"custom_model_data":613001},"model":"fisma:item/ortho_lance"},
+	    {"predicate":{"custom_model_data":9102002},"model":"cm:marine_harpoon"},
+		{"predicate":{"custom_model_data":9102003},"model":"sword:sword2"},
+		{"predicate":{"custom_model_data":9102019},"model":"weapon:bamboo_sword"},
+		{"predicate":{"custom_model_data":9102020},"model":"weapon:wooden_long_rod"},
+		{"predicate":{"custom_model_data":9102021},"model":"weapon:wooden_long_rod_1"},
+		{"predicate":{"custom_model_data":9102038},"model":"cm:fishbonesword"},
+		{"predicate":{"custom_model_data":9102042},"model":"cm:wooden_harpoon"},
+		{"predicate":{"custom_model_data":9102111},"model":"weapon:bamboo_long_rod"},
+		{"predicate":{"custom_model_data":9102112},"model":"weapon:bamboo_long_rod_1"},
+		{"predicate":{"custom_model_data":9102133},"model":"cm:exquisite_stick"}
+    ]
+}

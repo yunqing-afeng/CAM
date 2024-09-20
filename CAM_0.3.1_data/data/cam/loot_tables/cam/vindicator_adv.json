@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9102074,id:\"cam:vindicator\",Enchantments:[{id:\"minecraft:sharpness\",lvl:31},{id:\"cam:antigrind\"}],CAM_anti_sacrifice:1b,CAM_anti_recast:1b,CAM_antigrind:1b,CAM_grindtype:1,RepairCost:65,Damage:22,CAM_Enchantments:[{id:\"cam:rattlesnake\",lvl:5},{id:\"cam:rampage\",lvl:3b}],display:{Name:'[{\"translate\":\"item.cam.vindicator\",\"color\":\"gold\",\"italic\":false}]',Lore:['{\"translate\":\"enchantment.cam.general\",\"with\":[{\"translate\":\"enchant.cam.rampage\"},{\"translate\":\"enchantment.level.3\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"translate\":\"enchantment.cam.general\",\"with\":[{\"translate\":\"enchant.cam.rattlesnake\"},{\"translate\":\"enchantment.level.5\"}],\"color\":\"gray\",\"italic\":\"false\"}','{\"text\":\"\"}','{\"translate\":\" It is our power to strike back when necessary. \",\"color\":\"gold\",\"italic\":\"false\"}']}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

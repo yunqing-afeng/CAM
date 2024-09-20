@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "item/stone_axe"
+  },
+  "overrides":[
+		{"predicate":{"custom_model_data":9102095},"model":"weapon:woodman_axe"}
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "cam:sacrificing_table/curse/curse",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:tyrant\",lvl:1}],CAM_spe:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CAM_Enchantments:[{id:\"cam:failure\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cam:sacrificing_table/magic/wither",
+          "weight": 9
+        }
+      ]
+    }
+  ]
+}

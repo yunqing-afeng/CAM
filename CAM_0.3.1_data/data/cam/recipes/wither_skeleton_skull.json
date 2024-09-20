@@ -1,0 +1,23 @@
+{
+        "type": "crafting_shaped",
+        "pattern": [
+                " & ",
+                "#*#",
+                "   "
+        ],
+        "key": {
+                "*": {
+                        "item": "minecraft:skeleton_skull"
+                },
+                "#": {
+                        "item": "minecraft:coal"
+                },
+				"&":{
+				        "item":"minecraft:wither_rose"
+				}
+        },
+        "result": {
+                "item": "minecraft:wither_skeleton_skull",
+                "count":1
+        }
+}

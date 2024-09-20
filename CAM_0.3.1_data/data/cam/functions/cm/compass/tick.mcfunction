@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{tag:{cam_compass:1b}}}] at @s run function cam:cm/compass/function

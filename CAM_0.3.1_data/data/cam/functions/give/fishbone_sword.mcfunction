@@ -1,0 +1,1 @@
+give @s wooden_sword{CustomModelData:9102038,display:{Name:"[{\"translate\":\"item.cam.fishbone_sword\",\"color\":\"white\",\"italic\":\"false\"}]"},id:"cam:fishbone_sword"}

@@ -1,0 +1,1 @@
+give @s netherite_sword{id:"cam:netherite_harpoon",water:1b,display:{Name:"[{\"translate\":\"item.cam.netherite_harpoon\",\"italic\":\"false\"}]"},CustomModelData:9102047}

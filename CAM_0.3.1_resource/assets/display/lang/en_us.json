@@ -1,0 +1,9 @@
+{
+	"item.cam.item_displayer": "§rItem Displayer",
+	"item.cam.item_displayer_button_11":"§rItem Display Activated",
+	"item.cam.item_displayer_button_12":"§rItem Display Deactivated",
+	"item.cam.item_displayer_button_21":"§rItem Display Blocked",
+	"item.cam.item_displayer_button_22":"§rItem Display Deactivated",
+	"item.cam.item_displayer_button_31":"§rGlass Frame activated",
+	"item.cam.item_displayer_button_32":"§rGlass Frame deactivated"
+}

@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 0,
+                    "max": 2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "function": "minecraft:looting_enchant",
+                  "count": {
+                    "min": 0,
+                    "max": 1
+                  }
+                }
+              ],
+              "name": "cam:cam/bone_arrow",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "score",
+                    "target": {
+                      "type": "fixed",
+                      "name": "#bone_arrow"
+                    },
+                    "score": "CAM_module"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 0,
+                    "max": 2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "function": "minecraft:looting_enchant",
+                  "count": {
+                    "min": 0,
+                    "max": 1
+                  }
+                }
+              ],
+              "name": "minecraft:arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  },
+                  "entity": "this"
+                },
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "score",
+                    "target": {
+                      "type": "fixed",
+                      "name": "#monster"
+                    },
+                    "score": "CAM_module"
+                  },
+                  "range": 1
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ]
+}

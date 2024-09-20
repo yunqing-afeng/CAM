@@ -1,0 +1,1 @@
+give @s clock{CustomModelData:9101004,display:{Name:"[{\"translate\":\"item.cam.anniversary_heart\",\"italic\":\"false\",\"color\":\"gold\"}]",Lore:["{\"translate\":\"text.cam.anniversary_heart_\",\"color\":\"gray\",\"italic\":\"false\"}"]},id:"cam:anniversary_heart_3"}

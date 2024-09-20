@@ -1,0 +1,1 @@
+give @s crafting_table{CAM_crafting_table:1b,display:{Name:"[{\"translate\":\"item.cnc.crafting_table\",\"italic\":false}]"},CustomModelData:9102026,id:"cam:crafting_table"}

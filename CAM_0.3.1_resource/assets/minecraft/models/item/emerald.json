@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/emerald"
+    },
+	"overrides":[
+	    {"predicate":{"custom_model_data":9102012},"model":"magic:sapphire"}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/barrel",
+  "overrides":[
+	    {"predicate":{"custom_model_data":9102073},"model":"machine:barrel"}
+    ]
+}

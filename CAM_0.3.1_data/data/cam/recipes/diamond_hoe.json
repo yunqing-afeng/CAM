@@ -1,0 +1,7 @@
+{
+    "type":"blasting",
+	"ingredient":{"item":"minecraft:diamond_hoe"},
+	"result":"minecraft:stick",
+	"experience":0.1,
+	"cooktime":200
+}
